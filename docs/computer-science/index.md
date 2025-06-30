@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Computer Science
+# Computer Science Overview
 
 ![The Borr Project - Computer Science](borrproject.webp)
 
