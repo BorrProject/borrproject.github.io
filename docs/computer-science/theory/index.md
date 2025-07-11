@@ -22,3 +22,8 @@ The primary topics in this part of the specialization are: greedy algorithms (sc
 The primary topics in this part of the specialization are: shortest paths (Bellman-Ford, Floyd-Warshall, Johnson), NP-completeness and what it means for the algorithm designer, and strategies for coping with computationally intractable problems (analysis of heuristics, local search).
 
 - [Algorithms 4](https://www.coursera.org/learn/algorithms-npcomplete), 16-32 hrs
+
+## Extra Resources
+- [Algorithms Illuminated](https://www.algorithmsilluminated.org/): The textbook authored by the instructor of this set of courses. The textbook covers roughly the same material and can be used as either an alternative or as a supplement to the courses.
+- [Discussion forums](https://algorithms.freeforums.net/): Tim Roughgarden actually reads these from time to time.
+- [Test cases and test runners](https://github.com/beaunus/stanford-algs): Contains test cases for all assignments in the courses. You can use this to validate the correctness of your implementations. Keep in mind that the input files in the repository may have a slightly different format than the ones you download from Coursera (such as spaces instead of tabs).
