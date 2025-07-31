@@ -12,7 +12,7 @@ Or, if you are struggling in one of the courses, perhaps reading a book on the s
 Name | Author(s)
 :-- | :--:
 [Introduction to Computation and Programming Using Python 3e](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-third-edition) | John V. Guttag
-[Think Python 2e](http://greenteapress.com/wp/think-python-2e/) | Allen B. Downey
+[Think Python, Third Edition](https://greenteapress.com/wp/think-python-3rd-edition/) | Allen B. Downey
 [How to Design Programs 2e](https://www.htdp.org/) | Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi
 [Structure and Interpretation of Computer Programs 2e](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) | Hal Abelson, Jerry Sussman, Julie Sussman
 [The Structure and Interpretation of Computer Programs (2021, JavaScript)](https://sourceacademy.org/sicpjs/index) | Harold Abelson, Gerald Jay Sussman, Julie Sussman, Martin Henz, Tobias Wrigstad and Samuel Fang
