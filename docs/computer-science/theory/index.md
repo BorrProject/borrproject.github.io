@@ -7,7 +7,7 @@ sidebar_position: 7
 
 A full undergraduate-level introduction to the theory of algorithm design, algorithmic analysis, and data structures.
 
-Primary topics: WIP
+Primary topics: divide and conquer sorting and searching randomized algorithms graph search shortest paths data structures greedy algorithms minimum spanning trees dynamic programming NP-completeness and more
 - [Course website](https://www.algorithmsilluminated.org/)
 - **Playlists:** 
     - [Part 1](https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V) 
@@ -32,7 +32,7 @@ Primary topics: WIP
 - Do [Programming Assignment #1.3: Quicksort](https://github.com/beaunus/stanford-algs/tree/master/testCases/course1/assignment3Quicksort)
 - Watch 8.1-9.5
 - Do [Programming Assignment #1.4: Minimum Cut](https://github.com/beaunus/stanford-algs/tree/master/testCases/course1/assignment4MinCut)
-- [Optional Theory Batch #1](https://github.com/beaunus/stanford-algs/tree/master/testCases/course1/optionalTheoryProblemsBatch1)
+- [Optional Theory Batch](https://github.com/beaunus/stanford-algs/tree/master/testCases/course1/optionalTheoryProblemsBatch1)
 - Watch 10.1-10.9
 - Do [Programming Assignment #2.1: Strongly Connected Components](https://github.com/beaunus/stanford-algs/tree/master/testCases/course2/assignment1SCC)
 - Watch 11.1-12.3
@@ -42,6 +42,24 @@ Primary topics: WIP
 - Watch 14.1-16.2
 - Do [Programming Assignment #2.4: Two-Sum](https://github.com/beaunus/stanford-algs/tree/master/testCases/course2/assignment4TwoSum)
 
+### Part 2
+- Watch 1-21
+- Do [Programming Assignment #3.1: Scheduling And Minimums Spanning Trees](https://github.com/beaunus/stanford-algs/tree/master/testCases/course3/assignment1SchedulingAndMST)
+- Watch 22-32
+- Do [Programming Assignment #3.2: Clustering](https://github.com/beaunus/stanford-algs/tree/master/testCases/course3/assignment2Clustering)
+- Watch 33-43
+- Do [Programming Assignment #3.3: Huffman And Maximum Weight Independent Sets](https://github.com/beaunus/stanford-algs/tree/master/testCases/course3/assignment3HuffmanAndMWIS)
+- Watch 44-48
+- Do [Programming Assignment #3.4: Knapsack](https://github.com/beaunus/stanford-algs/tree/master/testCases/course3/assignment4Knapsack)
+- Watch 49-67
+- Do [Programming Assignment #4.1: All Apirs Shortest Path](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment1AllPairsShortestPath)
+- Watch 68-78
+- Do [Programming Assignment #4.2: Traveling Salesman](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment2TSP)
+- Watch 79-84
+- Do [Programming Assignment #4.3: Traveling Salesman Heuristic](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment3TSPHeuristic)
+- Watch 85-95
+- Do [Programming Assignment #4.4: 2SAT](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment4TwoSat)
 
 ## Extra Resources
-- [Coursera Alogorithms Specialization](https://www.coursera.org/specializations/algorithms): For students that want access to extra theory problems as well as paid certificate.
+- [Coursera Alogorithms Specialization](https://www.coursera.org/specializations/algorithms)  
+  For students that want access to extra theory problems as well as paid certificate.
