@@ -52,7 +52,7 @@ Primary topics: divide and conquer sorting and searching randomized algorithms g
 - Watch 44-48
 - Do [Programming Assignment #3.4: Knapsack](https://github.com/beaunus/stanford-algs/tree/master/testCases/course3/assignment4Knapsack)
 - Watch 49-67
-- Do [Programming Assignment #4.1: All Apirs Shortest Path](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment1AllPairsShortestPath)
+- Do [Programming Assignment #4.1: All Pairs Shortest Path](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment1AllPairsShortestPath)
 - Watch 68-78
 - Do [Programming Assignment #4.2: Traveling Salesman](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment2TSP)
 - Watch 79-84
