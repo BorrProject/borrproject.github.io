@@ -5,12 +5,19 @@ sidebar_position: 2
 # Nand2Tetris
 *Timeline: 114 - 186 hours*
 
-- [Nand2Tetris Part 1: Hardware](https://www.coursera.org/learn/build-a-computer), 42-78 hrs
+Nand2Tetris provides a basic introduction to computer architecture and computer systems, scratching the surface of almost every subject in computer science, and showing you how they all fit together.
 
-In this project-centered course you will build a modern computer system, from the ground up. We’ll divide this fascinating journey into six hands-on projects that will take you from constructing elementary logic gates all the way through creating a fully functioning general purpose computer. In the process, you will learn - in the most direct and constructive way - how computers work, and how they are designed.
+Primary topics: digital logic circuits, boolean algebra, computer architecture, computer systems, operating systems, compilers
 
-- [Nand2Tetris Part 2: Software](https://www.coursera.org/learn/nand2tetris2), 72-108 hrs
+- [Course Website](https://www.nand2tetris.org/)
+- **Playlists:**
+    - [Part 1](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
+    - [Part 2](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmllp9vuPqCuttC1XL9VyVh)
+- [Software](https://www.nand2tetris.org/software)
+- [Projects](https://www.nand2tetris.org/course)
+- [HDL Reference Manual](https://drive.google.com/file/d/1dPj4XNby9iuAs-47U9k3xtYy9hJ-ET0T/view)
+- [Hack Chipset](https://drive.google.com/file/d/1IsDnH0t7q_Im491LQ7_5_ajV0CokRbwR/view)
 
-In this project-centered course you will build a modern software hierarchy, designed to enable the translation and execution of object-based, high-level languages on a bare-bone computer hardware platform. In particular, you will implement a virtual machine and a compiler for a simple, Java-like programming language, and you will develop a basic operating system that closes gaps between the high-level language and the underlying hardware platform. In the process, you will gain a deep, hands-on understanding of numerous topics in applied computer science, e.g. stack processing, parsing, code generation, and classical algorithms and data structures for memory management, vector graphics, input-output handling, and various other topics that lie at the very core of every modern computer system.
-
-- [Nand2Tetris Course Website](https://www.nand2tetris.org/)
+## Extra Resources:
+- [The Elemenents of Computing Systems: Building a Modern Computer from First Principles](https://www.nand2tetris.org/book)  
+  The textbook for the course is a great supplement to the video lectures and projects.
