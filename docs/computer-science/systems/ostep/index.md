@@ -29,18 +29,6 @@ You will need a Unix/Linux system, some basic command line tools, and a C compil
 * [Homework Source Code Repo](https://github.com/remzi-arpacidusseau/ostep-homework)
 * [Homework Solutions](https://github.com/xxyzz/ostep-hw)
 
-### C
-
-**Question**: I see some C code in this book. How much C do I need to know?
-
-**Answer**: You'll need to read and understand some C code in this book. You'll need basic understanding of arrays, pointers and print formatting. You can consult the free book [Dive into Systems: Chapter 1 and 2](https://diveintosystems.org/book/C1-C_intro/index.html). The [CS50 Manual pages](https://manual.cs50.io) are also helpful to look up functions. You shouldn't spend too much time on learning C.
-
-The code you'll read is fairly simple and presented in short fragments. The book helps you out quite a bit by manually introducing many C APIs such as the Process API, the Thread API, and so on. You can type, compile and run the code fragments, and read the corresponding explanations. The book explains them in great detail in a conversational style that's fun to read.
-
-You will also write a little bit of C code. Only a minority of the chapters (about 10 out of 50) ask you to write some C code (while the other chapters require you to run provided simulation code and answer questions). These are usually simple, short C programs that imitate the code that was presented in that chapter, with small modifications.
-When you're ready to start the homework, start with the [reverse project](https://github.com/billmei/ostep-projects/tree/billmei/patch-1/initial-reverse) this will be a good test to see if you're ready for the rest of the projects. For the rest of the hw projects use the link under course links.
-
-If you are getting stuck on these, please don't spend too much time on them. There is a great solution set [here](https://github.com/xxyzz/ostep-hw). There is no honor code for this, so you are free to use the solutions. If you find yourself spending too much time, feel free to read and understand the solutions instead. Your main priority should be to gain understanding of operating systems concepts, not to master C coding.
 
 ## Extended Approach
 
@@ -49,12 +37,6 @@ If you've chosen this option, then this is the first course in the OSSU curricul
 That said, if you're able to commit the time required for the prerequisites, we believe the reward is well worth the effort: this course is exciting, interesting, and quite useful for other fields of computer science and programming. One big attraction of this course is the opportunity to see a simplified but fully-functional Unix-like operating system in action and understand the concepts and design decisions that went into it as well as the low-level implementation details.
 
 You should either watch all the lecture videos or read chapters 1 through 47 in the textbook (don't worry, the chapters are usually just a few pages long) as well as finish the projects listed below. We also strongly encourage you to do the homework exercises as they're assigned on the course website or in the book chapters; think of these like the "check-your-understanding" questions that pop up in the middle of lecture videos on sites like Coursera or edX.
-
-### Prerequisites
-
-This class requires a lot of experience programming in C. You should finish one of the C books listed in the [resources below](#c-1) *before* starting this course; if you try to learn C at the same time as the course material, you're likely to feel overwhelmed. If you haven't used C before, you should expect to spend a lot of time on this; it's hard to predict how long it might take for each person, but a rough estimate might be 8-10 hours per week for 3-5 weeks. You can always learn C alongside another OSSU course or even redo the exercises for other courses in C to gain practice with it.
-
-You should also finish both parts of Nand2Tetris before starting this course. OSTEP focuses on the real-world x86 and x86_64 architectures, so you'll have to fill in some gaps in order to translate the concepts you learned in Nand2Tetris to a new architecture. You can do that with the x86 resources below, but note that they all assume you know C, so learn that first. This should take around 6-8 hours in total.
 
 ### Course Links
 
@@ -148,50 +130,6 @@ git clone https://github.com/mit-pdos/xv6-public src
 - [hints for Project 1B: `initial-xv6`](Project-1B-initial-xv6)
 - [hints for `scheduling-xv6-lottery`](Scheduling-xv6-lottery)
 - [hints for `vm-xv6-intro`](vm-xv6-intro)
-
-### Resources
-
-#### C
-
-Please don't try to learn C from sites like GeeksforGeeks, TutorialsPoint, or Hackr.io (we're not even gonna link to them here). Those are great resources for other languages, but C has way too many pitfalls, and C tutorials online are often filled with dangerous errors and bad coding practices. We looked at many C resources for the recommendations below and unfortunately found *many* bad or unsafe ones; we'll only include the best ones here, so look no further!
-
-We recommend learning C by working through (the entirety of) Jens Gustedt's *Modern C*, which is [freely available online](https://inria.hal.science/hal-02383654v2/file/modernC.pdf). This book is relatively short and will bring you up to speed on the C language itself as well as modern coding practices for it. Make sure to do all the exercises in the footnotes!
-
-While the book above is our default recommendation, we also recommend K.N. King's [*C Programming: A Modern Approach*](http://www.knking.com/books/c2/) as a second, more beginner-friendly option. It has some disadvantages: it's much longer (almost 850 pages), it's not available for free (and copies can be hard to find), and it's not quite as recent as *Modern C* (but still relevant nonetheless). That said, it has more exercises if you want extra practice, and the Q&A sections at the end of each chapter are filled with pearls of C wisdom and answers to C FAQs. It also covers almost the entirety of the C language and standard library, so it doubles as a reference book.
-
-CS 50 doesn't quite cover enough C for OSTEP, but if you've already taken CS 50, you can supplement it with the books above.
-
-Additional (***optional***) resources include:
-* [CS 50 Manual Pages](https://manual.cs50.io): a great reference for looking up C library functions; most functions include both the usual manual as well as a beginner-friendly "less comfortable" option (just note that the "less comfortable" version uses `string` as an alias for `char *`.)
-* [cdecl](https://cdecl.org): a tool to translate C gibberish into English.
-* [C track on exercism.org](https://exercism.org/tracks/C): additional practice exercises.
-* [Secure Coding Practices in C and C++](https://www.amazon.com/dp/0321822137): if you want to understand why other C resources are so unsafe.
-* [*The C Programming Language*](https://www.amazon.com/dp/0131103628): the original book on C by its creators. Too outdated for OSTEP, but a good read if you manage to find a copy.
-
-#### x86 Architecture and Assembly Language
-
-Nand2Tetris has already introduced most of the concepts you'll need to understand systems and computer architectures, so now you just need to port that knowledge to the real-world (32-bit) x86 architecture.
-
-The easiest way to do that is by watching a subset of the lectures from the *Computer Systems: A Programmer's Perspective* course (or reading the matching chapters in the [textbook](https://www.amazon.com/dp/013409266X) of the same name). The lectures you'll need are:
-
-* [Machine-Level Programming I: Basics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e410255-3858-4e85-89c7-812c5845d197)
-* [Machine-Level Programming II: Control](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc93c499-8fc9-4652-9a99-711058054afb)
-* [Machine-Level Programming III: Procedures](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2994255f-923b-4ad4-8fb4-5def7fd802cd)
-* [Machine-Level Programming IV: Data](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=03308c94-fc20-40d8-8978-1a9b81c344ed)
-* [Machine-Level Programming V: Advanced Topics](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f0bf9ca-d640-4798-b91a-73aed656a10a)
-* [Linking](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0aef84fc-a53b-49c6-bb43-14cb2b175249)
-
-Furthermore, it is recommened to do the following labs. These labs are meant to teach you how to work with assembly:
-* **Bomb Lab**: [Writeup](http://csapp.cs.cmu.edu/3e/bomblab.pdf), [self-study handout](https://csapp.cs.cmu.edu/3e/bomb.tar).
-  > A "binary bomb" is a program provided to students as an object code file. When run, it prompts the user to type in 6 different strings. If any of these is incorrect, the  bomb "explodes," printing an error message and logging the event on a grading server. Students must "defuse" their own unique bomb by disassembling and reverse engineering the program to determine what the 6 strings should be. The lab teaches students to understand assembly language, and also forces them to learn how to use a debugger. It's also great fun. A legendary lab among the CMU undergrads.
-* **Attack Lab**: [Writeup](http://csapp.cs.cmu.edu/3e/attacklab.pdf), [self-study handout](https://csapp.cs.cmu.edu/3e/target1.tar).
-  > Students are given a pair of unique custom-generated x86-64 binary executables, called targets, that have buffer overflow bugs. One target is vulnerable to code injection attacks. The other is vulnerable to return-oriented programming attacks. Students are asked to modify the behavior of the targets by developing exploits based on either code injection or return-oriented programming. This lab teaches the students about the stack discipline and teaches them about the danger of writing code that is vulnerable to buffer overflow attacks. **Note:** run the targets with the -q flag to prevent them from trying to contact a non-existent grading server.
-
-Additional (***optional***) resources include:
-* [CPU Registers x86](https://wiki.osdev.org/CPU_Registers_x86): good for looking up specific registers.
-* [*PC Assembly Language*](https://pdos.csail.mit.edu/6.828/2018/readings/pcasm-book.pdf): a short book on x86 assembly.
-* [GCC Inline Assembly HOWTO](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html): a guide to writing assembly code inside a C program.
-* [*Intel 80386 Programmer's Reference Manual*](https://pdos.csail.mit.edu/6.828/2018/readings/i386.pdf): the official (and huge) resourcefrom Intel.
 
 #### xv6
 
