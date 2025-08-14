@@ -22,6 +22,10 @@ The primary textbook for this course is [Dive into Systems](https://diveintosyst
 
 
 ## Additional Resources
+
+* [Computer Systems: A Programmer's Perspective, Third Edition](https://csapp.cs.cmu.edu/)  
+  This most excellent textbook provides a thorough introduction to the topic of systems programming. Besides covering all material encountered in this course, it also covers additional material such as virtual memory, system level I/O, basic networking and concurrency in C. If you're serious about systems-level programming, this book is a must-have.
+
 ### C
 
 * [CS 50 Manual Pages](https://manual.cs50.io): a great reference for looking up C library functions; most functions include both the usual manual as well as a beginner-friendly "less comfortable" option (just note that the "less comfortable" version uses `string` as an alias for `char *`.)
