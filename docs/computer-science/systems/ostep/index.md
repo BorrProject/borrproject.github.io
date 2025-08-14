@@ -31,8 +31,7 @@ You will need a Unix/Linux system, some basic command line tools, and a C compil
 
 
 ## Extended Approach
-
-If you've chosen this option, then this is the first course in the OSSU curriculum for which you'll need to learn some prerequisites on your own before starting it, in addition to the courses that come before it in the curriculum. You might also run into some issues running the scripts for homework demos and for testing your solutions to the projects (although we hope we've solved most of those by now).
+If you've chosen this option, it is a *must* that you complete *both* courses in [Intro to Computer Systems](../computer-systems/index.md) or equivalent first.
 
 That said, if you're able to commit the time required for the prerequisites, we believe the reward is well worth the effort: this course is exciting, interesting, and quite useful for other fields of computer science and programming. One big attraction of this course is the opportunity to see a simplified but fully-functional Unix-like operating system in action and understand the concepts and design decisions that went into it as well as the low-level implementation details.
 

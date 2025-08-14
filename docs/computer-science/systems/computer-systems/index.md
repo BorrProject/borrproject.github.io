@@ -1,9 +1,31 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Computer Systems 102
-This course acts as a stand-in for CS-354: Intro to Computer Systems taught at the University of Wisconsin-Madison, which acts as an introduction to real-world computer systems and as a prerequisite for OSTEP.
+# Intro to Computer Systems
+
+## Nand2Tetris
+*Timeline: 114 - 186 hours*
+
+Nand2Tetris provides a basic introduction to computer architecture and computer systems, scratching the surface of almost every subject in computer science, and showing you how they all fit together.
+
+Primary topics: digital logic circuits, boolean algebra, computer architecture, computer systems, operating systems, compilers
+
+- [Course Website](https://www.nand2tetris.org/)
+- **Playlists:**
+    - [Part 1](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
+    - [Part 2](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmllp9vuPqCuttC1XL9VyVh)
+- [Software](https://www.nand2tetris.org/software)
+- [Projects](https://www.nand2tetris.org/course)
+- [HDL Reference Manual](https://drive.google.com/file/d/1dPj4XNby9iuAs-47U9k3xtYy9hJ-ET0T/view)
+- [Hack Chipset](https://drive.google.com/file/d/1IsDnH0t7q_Im491LQ7_5_ajV0CokRbwR/view)
+
+### Extra Resources:
+- [The Elemenents of Computing Systems: Building a Modern Computer from First Principles](https://www.nand2tetris.org/book)  
+  The textbook for the course is a great supplement to the video lectures and projects.
+
+## Computer Systems (Reccommended)
+This course acts as a stand-in for CS-354: Intro to Computer Systems taught at the University of Wisconsin-Madison, which acts as an introduction to real-world computer systems. This course is not strictly required for students who wish to do the base approach to OSTEP, however, it is highly recommended, as it gives valuable insight into how to program for real hardware. For the extended approach, this course is **strictly required**.
 
 The course covers 3 main topics:
 - Intro to C
@@ -21,19 +43,19 @@ The primary textbook for this course is [Dive into Systems](https://diveintosyst
 | The Memory Hierarchy | [[11]](https://diveintosystems.org/book/C11-MemHierarchy/index.html) | [[11]](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06dfcd19-1024-49eb-add8-3486a38d1426) [[12]](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3395b86e-0bd4-425d-8872-251e714acdd7) | Cache Lab: [Writeup](http://csapp.cs.cmu.edu/3e/cachelab.pdf), [Handout](https://csapp.cs.cmu.edu/3e/cachelab-handout.tar), [Recitation](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=17464223-21aa-485b-9de7-749dd2562616) |
 
 
-## Additional Resources
+### Additional Resources
 
 * [Computer Systems: A Programmer's Perspective, Third Edition](https://csapp.cs.cmu.edu/)  
   This most excellent textbook provides a thorough introduction to the topic of systems programming. Besides covering all material encountered in this course, it also covers additional material such as virtual memory, system level I/O, basic networking and concurrency in C. If you're serious about systems-level programming, this book is a must-have.
 
-### C
+#### C
 
 * [CS 50 Manual Pages](https://manual.cs50.io): a great reference for looking up C library functions; most functions include both the usual manual as well as a beginner-friendly "less comfortable" option (just note that the "less comfortable" version uses `string` as an alias for `char *`.)
 * [cdecl](https://cdecl.org): a tool to translate C gibberish into English.
 * [Secure Coding Practices in C and C++](https://www.amazon.com/dp/0321822137): if you want to understand why other C resources are so unsafe.
 * [*The C Programming Language*](https://www.amazon.com/dp/0131103628): the original book on C by its creators. 
 
-### Assembly
+#### Assembly
 * [CPU Registers x86](https://wiki.osdev.org/CPU_Registers_x86): good for looking up specific registers.
 * [*PC Assembly Language*](https://pdos.csail.mit.edu/6.828/2018/readings/pcasm-book.pdf): a short book on x86 assembly.
 * [GCC Inline Assembly HOWTO](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html): a guide to writing assembly code inside a C program.
