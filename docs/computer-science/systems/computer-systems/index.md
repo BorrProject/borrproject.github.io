@@ -34,7 +34,7 @@ The course covers 3 main topics:
 - Machine Programming with x86
 - The Memory Hierarchy
 
-The primary textbook for this course is [Dive into Systems](https://diveintosystems.org/book/) with selected lectures from [CMU 15-213](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/index.html) and labs from [CS:APP](https://csapp.cs.cmu.edu/). You do not need the CS:APP textbook to complete these labs. Remember to do the exercises after each chapter.
+The primary textbook for this course is [Dive into Systems](https://diveintosystems.org/book/) with selected lectures from [CMU 15-213](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/index.html) and labs from [CS:APP](https://csapp.cs.cmu.edu/). You do not need the CS:APP textbook to complete these labs. The readings are assigned as whole chapters. This means that when you are assigned eg. chapter 1 as a reading, you should read the chapter introduction *as well as* sections 1.1 through 1.8. Remember to do the exercises after each chapter.
 
 |  Topic  | Readings | Lectures | Labs |
 | ------- | -------- | -------- | ---- |
