@@ -48,7 +48,7 @@ The primary textbook for this course is [Dive into Systems](https://diveintosyst
 ### Additional Resources
 
 * [Computer Systems: A Programmer's Perspective, Third Edition](https://csapp.cs.cmu.edu/)  
-  This most excellent textbook provides a thorough introduction to the topic of systems programming. Besides covering all material encountered in this course, it also covers additional material such as virtual memory, system level I/O, basic networking and concurrency in C. If you're serious about systems-level programming, this book is a must-have.
+  This most excellent textbook provides a thorough introduction to the topic of systems programming. Besides covering all material encountered in this course, it also covers additional material such as virtual memory, system level I/O, basic networking and concurrency in C. If you're serious about systems-level programming, this book is a must-have. Beware that the Global Edition is riddled with errors in its exercises and solutions. This edition is **not** recommended.
 
 #### C
 
