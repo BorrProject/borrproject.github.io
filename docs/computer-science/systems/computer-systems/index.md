@@ -25,6 +25,8 @@ Primary topics: digital logic circuits, boolean algebra, computer architecture, 
   The textbook for the course is a great supplement to the video lectures and projects.
 
 ## Computer Systems (Reccommended)
+*Timeline: 40-60 hours*
+
 This course acts as a stand-in for CS-354: Intro to Computer Systems taught at the University of Wisconsin-Madison, which acts as an introduction to real-world computer systems. This course is not strictly required for students who wish to do the base approach to OSTEP, however, it is highly recommended, as it gives valuable insight into how to program for real hardware. For the extended approach, this course is **strictly required**.
 
 The course covers 3 main topics:
@@ -32,7 +34,7 @@ The course covers 3 main topics:
 - Machine Programming with x86
 - The Memory Hierarchy
 
-The primary textbook for this course is [Dive into Systems](https://diveintosystems.org/book/) with selected lectures from [CMU 15-213](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/index.html) and labs from [CS:APP](https://csapp.cs.cmu.edu/). You do not need the CS:APP textbook to complete these labs.
+The primary textbook for this course is [Dive into Systems](https://diveintosystems.org/book/) with selected lectures from [CMU 15-213](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/index.html) and labs from [CS:APP](https://csapp.cs.cmu.edu/). You do not need the CS:APP textbook to complete these labs. Remember to do the exercises after each chapter.
 
 |  Topic  | Readings | Lectures | Labs |
 | ------- | -------- | -------- | ---- |
