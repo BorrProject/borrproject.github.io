@@ -127,7 +127,7 @@ Build a rigorous foundation in mathematical thinking, which is essential for mas
 
 Learn how computers actually works. You will build a simulated version of a computer from scratch, learn the inner workings of operating systems, and take a look into how computers communicate with each other.  This track will demystify how the programs you write actually get executed by the computer.
 
-- [Nand2Tetris](systems/nand2tetris/index.md)
+- [Intro to Computer Systems](systems/computer-systems/index.md)
 - [Operating Systems](systems/ostep/index.md)
 - [Computer Networking](systems/networking/index.md)
 
