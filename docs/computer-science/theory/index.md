@@ -61,5 +61,7 @@ Primary topics: divide and conquer sorting and searching randomized algorithms g
 - Do [Programming Assignment #4.4: 2SAT](https://github.com/beaunus/stanford-algs/tree/master/testCases/course4/assignment4TwoSat)
 
 ## Extra Resources
-- [Coursera Alogorithms Specialization](https://www.coursera.org/specializations/algorithms)  
+- Edx Algorithms: Design and Analysis [Part 1](https://www.edx.org/learn/algorithms/stanford-university-algorithms-design-and-analysis-part-1) and [Part 2](https://www.edx.org/learn/algorithms/stanford-university-algorithms-design-and-analysis-part-2)
+  Includes extra problem sets and theory problems like Coursera, but still with audit access.
+- [Coursera Algorithms Specialization](https://www.coursera.org/specializations/algorithms)  
   For students that want access to extra theory problems as well as paid certificate.
