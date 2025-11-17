@@ -31,7 +31,6 @@ const config = {
   projectName: 'borrproject.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -40,7 +39,19 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        indexPages: true,
+        docsRouteBasePath: ['computer-science', 'precollege-math', 'data-science', 'math'],
+        highlightSearchTermsOnTargetPage: true,
+      }),
+    ],
+  ],
   presets: [
     [
       'classic',
