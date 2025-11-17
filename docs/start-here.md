@@ -1,6 +1,6 @@
 import StartHereProgress from '@site/src/components/StartHereProgress/StartHereProgress';
 
-# Start Here
+# Your Progress
 
 The Borr Project aims to empower learners to master college curricula through free resources. Choose a major and start today!
 
