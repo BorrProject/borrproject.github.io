@@ -1,0 +1,161 @@
+.container {
+  border: 1px solid var(--ifm-color-emphasis-200, #e6eef6);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  background: var(--ifm-background-color, #fff);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summary {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700, #333);
+}
+.sep {
+  margin: 0 0.25rem;
+  color: var(--ifm-color-emphasis-300, #888);
+}
+.label {
+  margin-left: 0.5rem;
+  color: var(--ifm-color-emphasis-400, #666);
+  font-size: 0.8rem;
+}
+.tick {
+  border: 1px solid var(--ifm-color-emphasis-200, #ccc);
+  background: transparent;
+  color: var(--ifm-color-emphasis-700, #222);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.ticked {
+  background: var(--ifm-color-success, #25c29a);
+  color: white;
+  border-color: transparent;
+}
+.progressBar {
+  height: 8px;
+  background: var(--ifm-color-emphasis-100, #f1f6fb);
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.filler {
+  height: 100%;
+  background: linear-gradient(90deg, var(--ifm-color-primary, #3b82f6), var(--ifm-color-success, #25c29a));
+  width: 0%;
+  transition: width 300ms ease;
+}
+.percent {
+  font-size: 0.8rem;
+  text-align: right;
+  color: var(--ifm-color-emphasis-400, #666);
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+.fileInput {
+  display: none;
+}
+
+.sectionName {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700, #222);
+  margin-right: 0.5rem;
+}
+
+.controls .button {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
+
+.controls .button--secondary {
+  background: transparent;
+  color: var(--ifm-color-emphasis-700, #222);
+  border: 1px solid var(--ifm-color-emphasis-200, #d0d7df);
+}
+.controls .button--secondary:hover {
+  background: var(--ifm-color-emphasis-100, #f1f6fb);
+}
+
+.controls .button--outline {
+  background: transparent;
+  color: var(--ifm-color-emphasis-700, #222);
+  border: 1px solid var(--ifm-color-emphasis-200, #d0d7df);
+}
+.controls .button--outline:hover {
+  background: var(--ifm-color-emphasis-100, #f1f6fb);
+}
+
+.button.button--primary.tick {
+  background: var(--ifm-color-primary, #2e8555) !important;
+  color: white !important;
+  border-color: transparent !important;
+}
+
+[data-theme='dark'] .controls .button--secondary,
+[data-theme='dark'] .controls .button--outline,
+[data-theme='dark'] .controls .button {
+  color: var(--ifm-color-emphasis-100, #eee);
+  border-color: rgba(255,255,255,0.06);
+}
+[data-theme='dark'] .controls .button--secondary:hover,
+[data-theme='dark'] .controls .button--outline:hover,
+[data-theme='dark'] .controls .button:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+.controls .button--outline:hover {
+  color: var(--ifm-color-emphasis-700, #222);
+}
+
+.container .borr-tick {
+  background: var(--ifm-color-primary, #2e8555) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+.container .borr-export,
+.container .borr-import {
+  background: transparent !important;
+  color: var(--ifm-color-emphasis-700, #222) !important;
+  border: 1px solid var(--ifm-color-emphasis-200, #d0d7df) !important;
+}
+.container .borr-export:hover,
+.container .borr-import:hover {
+  background: var(--ifm-color-emphasis-100, #f1f6fb) !important;
+}
+.container .borr-reset {
+  background: transparent !important;
+  color: var(--ifm-color-emphasis-700, #222) !important;
+  border: 1px solid var(--ifm-color-emphasis-200, #d0d7df) !important;
+}
+.container .borr-reset:hover {
+  background: var(--ifm-color-emphasis-100, #f1f6fb) !important;
+  color: var(--ifm-color-emphasis-700, #222) !important;
+}
+
+[data-theme='dark'] .container .borr-export,
+[data-theme='dark'] .container .borr-import,
+[data-theme='dark'] .container .borr-reset {
+  color: var(--ifm-color-emphasis-100, #eee) !important;
+  border-color: rgba(255,255,255,0.06) !important;
+}
+[data-theme='dark'] .container .borr-export:hover,
+[data-theme='dark'] .container .borr-import:hover,
+[data-theme='dark'] .container .borr-reset:hover {
+  background: rgba(255,255,255,0.03) !important;
+}
