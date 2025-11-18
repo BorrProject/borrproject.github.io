@@ -1,0 +1,81 @@
+.borrMultiProgress {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.5rem;
+}
+
+.barContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200, #e6eef6);
+  border-radius: 6px;
+  background: var(--ifm-background-color, #fff);
+}
+
+.barHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.barLabel {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.barActions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+}
+
+.barPercentage {
+  color: var(--ifm-color-emphasis-400, #666);
+  min-width: 3ch;
+}
+
+.barProgressTrack {
+  height: 8px;
+  background: var(--ifm-color-emphasis-100, #f1f6fb);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.barProgressFill {
+  height: 100%;
+  transition: width 300ms ease;
+  background: linear-gradient(
+    90deg,
+    var(--ifm-color-primary, #3b82f6),
+    var(--ifm-color-success, #25c29a)
+  );
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .barHeader {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .barActions {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .barActions button {
+    flex: 0 1 auto;
+    min-width: 100px;
+  }
+}

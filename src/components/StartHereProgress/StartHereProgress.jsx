@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import styles from './styles.module.css';
 
 const STORAGE_PREFIX = 'borr:read:';
 const SECTIONS = [
@@ -34,13 +35,13 @@ async function loadManifest(){
 function Bar({label, done, total, onExport, onImport, onReset, onGo}){
   const pct = total > 0 ? Math.round((done/total)*100) : 0;
   return (
-    <div style={{display:'flex',flexDirection:'column',gap:'0.4rem',padding:'0.5rem',border:'1px solid var(--ifm-color-emphasis-200, #e6eef6)',borderRadius:6,background:'var(--ifm-background-color, #fff)'}}>
-      <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-        <div style={{display:'flex',alignItems:'center'}}>
+    <div className={styles.barContainer}>
+      <div className={styles.barHeader}>
+        <div className={styles.barLabel}>
           <div dangerouslySetInnerHTML={{__html:`<strong>${label}</strong> <span style="color:var(--ifm-color-emphasis-400, #666); margin-left:0.5rem;">${done} / ${total}</span>`}} />
         </div>
-        <div style={{display:'flex',alignItems:'center',gap:'0.5rem'}}>
-          <div style={{color:'var(--ifm-color-emphasis-400, #666)'}}>{pct}%</div>
+        <div className={styles.barActions}>
+          <div className={styles.barPercentage}>{pct}%</div>
           <div>
             <button className="button button--secondary borr-export" onClick={onExport} title="Export progress for this section">Export</button>
           </div>
@@ -55,8 +56,8 @@ function Bar({label, done, total, onExport, onImport, onReset, onGo}){
           </div>
         </div>
       </div>
-      <div style={{height:8,background:'var(--ifm-color-emphasis-100, #f1f6fb)',borderRadius:6,overflow:'hidden'}}>
-        <div style={{height:'100%',width:`${pct}%`,transition:'width 300ms ease',background:'linear-gradient(90deg, var(--ifm-color-primary, #3b82f6), var(--ifm-color-success, #25c29a))'}} />
+      <div className={styles.barProgressTrack}>
+        <div className={styles.barProgressFill} style={{width: `${pct}%`}} />
       </div>
     </div>
   );
@@ -212,7 +213,7 @@ function ProgressContainer(){
   return (
     <div>
       <input ref={fileInputRef} type="file" accept="application/json" style={{display:'none'}} onChange={handleImportFile} />
-      <div className="borr-multi-progress" style={{display:'flex',flexDirection:'column',gap:'0.6rem'}}>
+      <div className={styles.borrMultiProgress}>
         {rows.map((r, i) => {
           const path = norm(SECTIONS[i][0]);
           return (
