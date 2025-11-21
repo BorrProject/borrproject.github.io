@@ -8,6 +8,101 @@
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
+
+.borr-tick {
+  background: var(--ifm-color-primary) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+.borr-export,
+.borr-import,
+.borr-reset {
+  background: transparent !important;
+  color: var(--ifm-color-emphasis-700) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+.borr-export:hover,
+.borr-import:hover,
+.borr-reset:hover {
+  background: var(--ifm-color-emphasis-100) !important;
+}
+
+[data-theme='dark'] .borr-export,
+[data-theme='dark'] .borr-import,
+[data-theme='dark'] .borr-reset,
+[data-theme='dark'] .borr-tick {
+  color: var(--ifm-color-emphasis-100) !important;
+  border-color: rgba(255,255,255,0.06) !important;
+}
+[data-theme='dark'] .borr-export:hover,
+[data-theme='dark'] .borr-import:hover,
+[data-theme='dark'] .borr-reset:hover,
+[data-theme='dark'] .borr-tick:hover {
+  background: rgba(255,255,255,0.03) !important;
+}
+
+.borr-multi-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.borr-export,
+.borr-import,
+.borr-reset,
+.borr-go {
+  background: transparent !important;
+  color: var(--ifm-color-emphasis-700) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+.borr-export:hover,
+.borr-import:hover,
+.borr-reset:hover,
+.borr-go:hover {
+  background: var(--ifm-color-emphasis-100) !important;
+}
+
+.borr-go {
+  background: var(--ifm-color-primary) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+.borr-go:hover {
+  background: var(--ifm-color-primary-dark) !important;
+}
+
+.borr-reset {
+  background: transparent !important;
+  color: var(--ifm-color-emphasis-700) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+.borr-reset:hover {
+  background: var(--ifm-color-emphasis-100) !important;
+  color: var(--ifm-color-emphasis-700) !important;
+}
+
+[data-theme='dark'] .borr-export,
+[data-theme='dark'] .borr-import,
+[data-theme='dark'] .borr-reset,
+[data-theme='dark'] .borr-go {
+  color: var(--ifm-color-emphasis-100) !important;
+  border-color: rgba(255,255,255,0.06) !important;
+  background: rgba(255,255,255,0.02) !important;
+}
+[data-theme='dark'] .borr-export:hover,
+[data-theme='dark'] .borr-import:hover,
+[data-theme='dark'] .borr-reset:hover {
+  background: rgba(255,255,255,0.03) !important;
+}
+[data-theme='dark'] .borr-go {
+  background: var(--ifm-color-primary) !important;
+  color: #fff !important;
+}
+[data-theme='dark'] .borr-go:hover {
+  background: var(--ifm-color-primary-dark) !important;
+}
+
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;

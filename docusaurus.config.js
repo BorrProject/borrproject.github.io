@@ -191,6 +191,7 @@ const config = {
           },
           {to: '/getting-help', label: 'Getting Help'},
           {to: '/blog', label: 'Blog'},
+          {to: '/start-here', label: 'Your Progress', position: 'right'},
           {
             href: 'https://github.com/BorrProject/',
             position: 'right',
