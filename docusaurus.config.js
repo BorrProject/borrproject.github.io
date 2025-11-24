@@ -193,6 +193,10 @@ const config = {
           {to: '/blog', label: 'Blog'},
           {to: '/start-here', label: 'Your Progress', position: 'right'},
           {
+            type: 'search',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/BorrProject/',
             position: 'right',
             className: 'header-github-link',
