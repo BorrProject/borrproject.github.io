@@ -202,12 +202,12 @@ const config = {
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
-//          {
-//            href: 'https://www.youtube.com/@virtua1hub',
-//            position: 'right',
-//            className: 'header-youtube-link',
-//            'aria-label': 'Youtube Channel',
-//          },
+          {
+            href: 'https://www.youtube.com/@borrproject',
+            position: 'right',
+            className: 'header-youtube-link',
+            'aria-label': 'Youtube Channel',
+          },
         ],
       },
       footer: {
