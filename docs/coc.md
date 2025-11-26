@@ -56,6 +56,7 @@ Examples of behavior that contributes to creating a positive environment include
 - **Be considerate.** Remember that decisions are often a difficult choice between competing priorities. Focus on what is best for the community. Keep discussions around technology choices constructive and respectful.
 - **Be patient and generous.** If someone asks for help it is because they need it. When documentation is available that answers the question, politely point them to it. If the question is off-topic, suggest a more appropriate online space to seek help.
 - **Try to be concise.** Read the discussion before commenting in order to not repeat a point that has been made.
+- **Try to be meaningful.** When helping others, make sure to use trusted resources, and your messages are purposeful. Don't paste an LLM-generated essay and call it a day; if the person asking the question wanted such an answer, they could have just asked the AI themselves. That's not to say we're entirely against the use of AI; if it helps you finding the neccessary information, go for it - but always make sure to double-check its accuracy, and cut it down to the critical part, or even better, reply with your own words. Overall, try to minimize the AI-generated content (especially images). We're mostly real humans here.
 
 ### Inappropriate Behavior
 
