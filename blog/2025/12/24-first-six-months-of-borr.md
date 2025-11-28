@@ -1,10 +1,11 @@
 ---
-title: First 6 Months of BORR Project
+title: First 6 Months of The BORR Project
 slug: first-six-months-of-borr
 authors: r0hitm
+draft: true
 ---
 
-BORR Project started out as a community fork of OSSU to rebuild the community where people can come together, geek out, and support one another in a peer learning environment for computer science and math. Six months in, we’re excited to share our progress.
+The BORR Project started out as a community fork of OSSU to rebuild the community where people can come together, geek out, and support one another in a peer learning environment for computer science and math. Six months in, we’re excited to share our progress.
 
 <!-- truncate -->
 
@@ -19,7 +20,7 @@ BORR Project started out as a community fork of OSSU to rebuild the community wh
 
 - We promptly addressed issues with courses affected by Coursera's removal of the audit option by identifying alternative resources.
 - We have seen familiar and new faces contributing to our repos, streamlining resource suggestions and fixes. The Preschool Math curriculum, for instance, received a complete overhaul.
-- We avoid a strict "lecture-only" policy, embracing books, articles, and other formats. For example, we recommend [CS:APP](/computer-science/systems/computer-systems/#computer-systems-recommended) before students start [OSTEP](/computer-science/systems/ostep). We provide supplementary notes on how these texts complement each other in the systems programming section to help students plan their studies effectively.
+- We avoid a strict "lecture-only" policy, embracing books, articles, and other formats. For example, we recommend *Dive into Systems* combined with *CS:APP* lectures and labs as our primary resource, keeping the *CS:APP* textbook as an optional supplement since it is not free. This approach, suggested before students start [OSTEP](/computer-science/systems/ostep), helps students plan their studies effectively in the systems programming section.
 - The curriculum is actively maintained with frequent contributions on GitHub regarding courses, issues, and research suggestions. We've also added supplemental resources to many courses.
 
 ## Roadmap for the Next 6 Months
