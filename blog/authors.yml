@@ -1,5 +1,15 @@
 pulkitkrishna:
   name: Pulkit Krishna
-  url: https://github.com/pulkitkrishna00
   image_url: https://avatars.githubusercontent.com/u/72264063
+  page: true
+  socials:
+    github: pulkitkrishna00
+
+r0hitm:
+  name: Rohit M
+  title: Moe Programmer
+  image_url: https://avatars.githubusercontent.com/u/63762981
+  socials:
+    github: r0hitm
+    url: https://devavatar.com
   page: true
