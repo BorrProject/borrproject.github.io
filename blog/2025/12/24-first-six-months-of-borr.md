@@ -2,7 +2,6 @@
 title: First 6 Months of BORR Project
 slug: first-six-months-of-borr
 authors: r0hitm
-draft: true
 ---
 
 BORR Project started out as a community fork of OSSU to rebuild the community where people can come together, geek out, and support one another in a peer learning environment for computer science and math. Six months in, we’re excited to share our progress.
