@@ -71,7 +71,7 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 | Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | Unix Utilities: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities), [discussion](https://youtu.be/rgcq9x8LtGQ), [hints](#hints-and-tips-for-projects) |
 | **Virtualization** | | | |
 | Processes | [[3]]() [[4]]() [[5]]() [[6]]() | [[1.3]]() [[2.1]]() | Shell: [details](), [discussion](), [hints](Project-2A-processes-shell) |
-| Scheduling | [[7]]() [[8]]() [[9]]() [[10]]() [[11]]() | | xv6 Intro: [details](), [discussion](), [hints](Project-1B-initial-xv6) <br> xv6 Lottery Scheduler: [desciption](), [discussion](), [hints](Scheduling-xv6-lottery) |
+| Scheduling | [[7]]() [[8]]() [[9]]() [[10]]() [[11]]() | | xv6 Intro: [details](), [discussion](), [hints](Project-1B-initial-xv6) <br /> xv6 Lottery Scheduler: [details](), [discussion](), [hints](Scheduling-xv6-lottery) |
 | Virtual Memory | [[12]]() [[13]]() [[14]]() [[15]]() [[16]]() [[17]]() | |  |
 | Paging | [[18]]() [[19]]() [[20]]() | | |
 | Beyond physical | [[21]]() [[22]]() [[23]]() [[24]]() | | xv6 Virtual Memory: [details](), [discussion](), [hints](vm-xv6-intro) |
@@ -79,7 +79,7 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 | Threads | [[25]]() [[26]]() [[27]]() | | |
 | Locks and condition variables | [[28]]() [[29]]() [[30]]() | | |
 | Semaphores | [[31]]() | | |
-| More topics in concurrency | [[32]]() [[33]]() [[34]]() | | MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion]() <br>  Concurrency in xv6: [details](), [discussion]() |
+| More topics in concurrency | [[32]]() [[33]]() [[34]]() | | MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion]() <br />  Concurrency in xv6: [details](), [discussion]() |
 | **Persistence** |
 | IO and Disks | [[35]]() [[36]]() [[37]]() [[38]]() | | |
 | Filesystems | [[39]]() [[40]]() [[41]]() | | |
