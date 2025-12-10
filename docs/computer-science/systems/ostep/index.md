@@ -70,21 +70,35 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 | ------- | -------- | -------- | ---------|
 | Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | Unix Utilities: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities), [discussion](https://youtu.be/rgcq9x8LtGQ), [hints](#hints-and-tips-for-projects) |
 | **Virtualization** | | | |
-| Processes | [[3]]() [[4]]() [[5]]() [[6]]() | [[1.3]]() [[2.1]]() | Shell: [details](), [discussion](), [hints](Project-2A-processes-shell) |
-| Scheduling | [[7]]() [[8]]() [[9]]() [[10]]() [[11]]() | | xv6 Intro: [details](), [discussion](), [hints](Project-1B-initial-xv6) <br /> xv6 Lottery Scheduler: [details](), [discussion](), [hints](Scheduling-xv6-lottery) |
-| Virtual Memory | [[12]]() [[13]]() [[14]]() [[15]]() [[16]]() [[17]]() | |  |
-| Paging | [[18]]() [[19]]() [[20]]() | | |
-| Beyond physical | [[21]]() [[22]]() [[23]]() [[24]]() | | xv6 Virtual Memory: [details](), [discussion](), [hints](vm-xv6-intro) |
+| *Dialogue* | [[3]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-virtualization.pdf) | | |
+| Processes | [[4]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) [[5]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) [[6]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | [[1.3]]() [[2.1]]() | Shell: [details](), [discussion](), [hints](Project-2A-processes-shell) |
+| Scheduling | [[7]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) [[8]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) [[9]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) [[10]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-multi.pdf) | | xv6 Intro: [details](), [discussion](), [hints](Project-1B-initial-xv6) <br /> xv6 Lottery Scheduler: [details](), [discussion](), [hints](Scheduling-xv6-lottery) |
+| *Summary* | [[11]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-dialogue.pdf) | | |
+| *Dialogue* | [[12]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-vm.pdf) | | |
+| Virtual Memory | [[13]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) [[14]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf) [[15]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) [[16]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf) [[17]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf) | |  |
+| Paging | [[18]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf) [[19]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf) [[20]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf) | | |
+| Beyond physical | [[21]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf) [[22]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf) [[23]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-complete.pdf) | | xv6 Virtual Memory: [details](), [discussion](), [hints](vm-xv6-intro) |
+| *Summary* | [[24]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-dialogue.pdf) | | |
 | **Concurrency** | | | |
-| Threads | [[25]]() [[26]]() [[27]]() | | |
-| Locks and condition variables | [[28]]() [[29]]() [[30]]() | | |
-| Semaphores | [[31]]() | | |
-| More topics in concurrency | [[32]]() [[33]]() [[34]]() | | MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion]() <br />  Concurrency in xv6: [details](), [discussion]() |
+| *Dialogue* | [[25]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-concurrency.pdf) | | | |
+| Threads |[[26]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) [[27]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | | |
+| Concurrency primitives | [[28]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf) [[29]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf) [[30]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf) [[31]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | | |
+| More topics in concurrency | [[32]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf) [[33]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-events.pdf) | | MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion]() <br />  Concurrency in xv6: [details](), [discussion]() |
+| *Summary* | [[34]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-dialogue.pdf) | | |
 | **Persistence** |
-| IO and Disks | [[35]]() [[36]]() [[37]]() [[38]]() | | |
-| Filesystems | [[39]]() [[40]]() [[41]]() | | |
-| Journaling and LFS | [[42]]() [[43]]() | | |
-| SSDs and Data Integrity | [[44]]() [[45]]() [[46]]() [[46]]() | | File System Checker: [details](), [discussion]() |
+| *Dialogue* | [[35]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-persistence.pdf) | | |
+| IO and Disks | [[36]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf) [[37]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf) [[38]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf) | | |
+| Filesystems | [[39]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) [[40]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) [[41]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf) | | |
+| Journaling and LFS | [[42]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf) [[43]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf) | | |
+| SSDs and Data Integrity | [[44]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | File System Checker: [details](), [discussion]() |
+| *Summary* | [[46]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-dialogue.pdf) | | |
+
+### Advanced Topics
+
+|  Topic  | Readings  |
+| ------- | --------- |
+| **Distributed systems** | [[47]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-distribution.pdf) [[48]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf) [[49]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf) [[50]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-afs.pdf) [[51]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-afs.pdf) | [[51]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-dialogue.pdf) |
+| **Security** | [[52]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-security.pdf) [[53]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf) [[54]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-authentication.pdf) [[55]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-access.pdf) [[56]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-crypto.pdf) [[57]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-distributed.pdf) |
 
 ### Running the Projects
 
