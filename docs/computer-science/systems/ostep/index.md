@@ -66,35 +66,25 @@ You should either watch all the lecture videos or read chapters 1 through 47 in 
 
 This course was originally taught as CS 537 at the University of Wisconsin by the author of the OSTEP textbook, so the projects are assigned in the course according to the best times to give UWisconsin students access to on-campus resources like recitation sections and office hours. That means they don't match up perfectly with the material being covered at that time in the lectures or textbook chapters. We recommend doing the course in the following order instead.
 
-#### Reading order
-
-* Before starting the course: `initial-utilities` (aka, project 1a) and `initial-reverse` (not assigned in class)
-* Chapter 5: `processes-shell` (project 2a)
-* Chapter 6: `initial-xv6` (project 1b, but only worry about test 1)
-* Chapter 9: `scheduling-xv6-lottery` (project 2b)
-* Chapter 24: `vm-xv6-intro` (project 3b)
-* Chapter 28: `initial-xv6` (now pass test 2)
-* Chapter 29: `concurrency-xv6-threads` (project 4b)
-* Chapter 30: `concurrency-mapreduce` (project 4a)
-* Chapter 33: `concurrency-webserver` (not assigned in class)
-* Chapter 42: `filesystems-checker` (project 5a)
-* (there is no 5b, and there are no projects for chapters 43-51)
-
-**Notes:**
-
-* Read chapters 1 and 2 of the OSTEP textbook and watch the first half (the introduction) of lecture 1.
-* Do the `initial-utilities` project; it's intended as a litmus test for you to make sure you're comfortable enough with C before taking this class. You can watch discussion 1 for help. If it takes you more than 2 hours to write the code (not counting the discussion time and any time spent debugging), you should consider spending more time learning C before moving on in the course. (If you want more practice, you can do `initial-reverse` too, but it's not required.)
-* Watch lectures 1 through 5 and read chapters 3 through 24 of the OSTEP textbook. We recommend doing the homework assignments as they come up in the course calendar or book chapters.
-* Watch discussion 3 and reread chapter 5, then do the `processes-shell` project.
-* Read the annotated guide to xv6 linked in the resources section below, starting from the beginning and stopping after the `System Calls: Processes` section.
-* Watch discussion 2, then do the `initial-xv6` project.
-* Watch discussion 5, then do the `scheduling-xv6-lottery` project.
-* Watch discussion 7, then do the `vm-xv6-intro` project.
-* Watch lectures 6 through 9 (and optionally, the review lecture) and read chapters 25 through 34; again, you're encouraged to do the homework.
-* Watch discussion 10, then do the `concurrency-xv6-threads` project.
-* Watch discussions 11 and 12, then do the `concurrency-mapreduce` project.
-* Watch lectures 10 through 14 (and optionally, the second review lecture) and read chapters 35 through 47; remember to do the homework along with the lectures or chapters.
-* Do the `filesystems-checker` project.
+|  Topic  | Readings | Lectures | Projects |
+| ------- | -------- | -------- | ---------|
+| Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | Unix Utilities: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities), [discussion](https://youtu.be/rgcq9x8LtGQ), [hints](#hints-and-tips-for-projects) |
+| **Virtualization** | | | |
+| Processes | [[3]]() [[4]]() [[5]]() [[6]]() | [[1.3]]() [[2.1]]() | Shell: [details](), [discussion](), [hints](Project-2A-processes-shell) |
+| Scheduling | [[7]]() [[8]]() [[9]]() [[10]]() [[11]]() | | xv6 Intro: [details](), [discussion](), [hints](Project-1B-initial-xv6) <br> xv6 Lottery Scheduler: [desciption](), [discussion](), [hints](Scheduling-xv6-lottery) |
+| Virtual Memory | [[12]]() [[13]]() [[14]]() [[15]]() [[16]]() [[17]]() | |  |
+| Paging | [[18]]() [[19]]() [[20]]() | | |
+| Beyond physical | [[21]]() [[22]]() [[23]]() [[24]]() | | xv6 Virtual Memory: [details](), [discussion](), [hints](vm-xv6-intro) |
+| **Concurrency** | | | |
+| Threads | [[25]]() [[26]]() [[27]]() | | |
+| Locks and condition variables | [[28]]() [[29]]() [[30]]() | | |
+| Semaphores | [[31]]() | | |
+| More topics in concurrency | [[32]]() [[33]]() [[34]]() | | MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion]() <br>  Concurrency in xv6: [details](), [discussion]() |
+| **Persistence** |
+| IO and Disks | [[35]]() [[36]]() [[37]]() [[38]]() | | |
+| Filesystems | [[39]]() [[40]]() [[41]]() | | |
+| Journaling and LFS | [[42]]() [[43]]() | | |
+| SSDs and Data Integrity | [[44]]() [[45]]() [[46]]() [[46]]() | | File System Checker: [details](), [discussion]() |
 
 ### Running the Projects
 
@@ -115,8 +105,7 @@ In order to run the homework and projects on Linux or macOS, you'll need to have
 * `gawk`
 * `expect`
 * `git`
-
-You will also need to install `qemu`, but we recommend using the patched version provided by the xv6 authors; see [this link](https://pdos.csail.mit.edu/6.828/2018/tools.html) for details.
+* `qemu`
 
 On macOS, you'll need to install a cross-compiler `gcc` suite capable of producing x86 ELF binaries; see the link above for details as well.
 
@@ -126,7 +115,6 @@ Next, clone the `ostep-homework` and `ostep-projects` repositories:
 ```sh
 git clone https://github.com/remzi-arpacidusseau/ostep-homework/
 git clone https://github.com/remzi-arpacidusseau/ostep-projects/
-cd ostep-projects
 ```
 
 You'll have to clone [the `xv6-public` repository](https://github.com/mit-pdos/xv6-public) into the directory for each xv6-related OSTEP project. You could use the same copy for all the projects, but we recommend using separate copies to avoid previous projects causing bugs for later ones. Run the following commands in *each* of the `initial-xv6`, `scheduling-xv6-lottery`, `vm-xv6-intro`, `concurrency-xv6-threads`, and `filesystems-checker` directories.
@@ -139,15 +127,9 @@ git clone https://github.com/mit-pdos/xv6-public src
 ### Hints and tips for Projects
 
 - `initial-reverse`: the error messages that are needed to pass the tests were wrong! The provided text said `"error: ..."` but the tests expected `"reverse: ..."` so make sure to match the tests' expectations in your code.
-- [hints and tips for `processes-shell`](Project-2A-processes-shell)
-- [hints for Project 1B: `initial-xv6`](Project-1B-initial-xv6)
-- [hints for `scheduling-xv6-lottery`](Scheduling-xv6-lottery)
-- [hints for `vm-xv6-intro`](vm-xv6-intro)
+
 
 #### xv6
-
-You don't need to read anything about xv6 until after you start OSTEP; in fact, we recommend holding off on the xv6-related projects until you've finished the entire section on virtualization. After that, you'll need a guide to walk you through the source code.
-
 The xv6 authors provide a [book](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf) that you can read alongside the source code. There's also a handy line-numbered [PDF version](https://pdos.csail.mit.edu/6.828/2018/xv6/xv6-rev11.pdf) of the code with an index to see exactly where each function or constant gets used.
 
 However, that book glosses over a lot of the details in the code that you might find challenging, including the advanced C features used, the x86 architecture- specific instructions, and the concurrency aspects (if you haven't finished that section of OSTEP before starting the xv6 projects). To solve this problem, we provide an [annotated guide to xv6](https://github.com/palladian1/xv6-annotated) that goes over the entire xv6 code and analyzes it line-by-line with explanations of the C features, hardware specs, and x86 conventions used. That means it's longer than the official xv6 book, so you don't have to read all of it (and you can probably skip the optional sections unless you care about device drivers), but you can use it as a reference if you're scratching your head about some part of the code.
