@@ -87,11 +87,14 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 | *Summary* | [[34]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-dialogue.pdf) | | |
 | **Persistence** |
 | *Dialogue* | [[35]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-persistence.pdf) | | |
-| IO and Disks | [[36]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf) [[37]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf) [[38]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf) | | |
-| Filesystems | [[39]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) [[40]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf) [[41]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf) | | |
-| Journaling and LFS | [[42]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf) [[43]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf) | | |
-| SSDs and Data Integrity | [[44]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | File System Checker: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/filesystems-checker) |
+| IO and Disks | [[36]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf) [[37]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf) | [[10.1]](https://youtu.be/SQz2CTpI-NM) [[10.2]](https://youtu.be/15dJR01z82k) [[10.3]](https://youtu.be/yErUVST4Fv0) | |
+| RAID | [[38]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf) | [[11.1]](https://youtu.be/XF0mKxLrSVs) [[11.2]](https://youtu.be/h3WKYo1B19U) [[11.3]](https://youtu.be/Mn9g9XWec28) | |
+| Filesystems | [[39]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) [[40]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)  | [[11.4]](https://youtu.be/EDFoFlzZ8_w) [[12.1]](https://youtu.be/QMjJlCqUYW4) [[12.2]](https://youtu.be/87vv7nVdTDA) [[12.3]](https://youtu.be/5n0AdNuBObU) | |
+| Crash consistency, journaling, FFS | [[41]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf) [[42]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf) | [[13.1]](https://youtu.be/piwPJ0sLV0Y) [[13.2]](https://youtu.be/MgnQV-ss1wc) [[13.3]](https://youtu.be/wwvMNItRyl8) | |
+| LFS and SSDs | [[43]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf) [[44]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) | [[14.1]](https://youtu.be/59XSFnXQ-9Q) [[14.2]](https://youtu.be/6fbm9u7__L0) [[14.3]](https://youtu.be/vvttbstRdj8) [[14.4]](https://youtu.be/sKTyhqvTUBU) | |
+| Data Integrity and Protection | [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | File System Checker: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/filesystems-checker) |
 | *Summary* | [[46]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-dialogue.pdf) | | |
+| **End of class review** | | [Part 1](www.youtube.com/watch?v=TSiMDPFquO4), [Part 2](https://youtu.be/jIcw7B36oBU) | |
 
 ### Advanced Topics
 
