@@ -129,7 +129,7 @@ On macOS, you'll need to install a cross-compiler `gcc` suite capable of produci
 
 On Windows, you can use a Linux virtual machine for the homework and projects. Some of these packages are not yet supported on Apple M1 computers, and virtual machine software has not yet been ported to the new processor architecture; some students have used a VPS to do the homework and projects instead.
 
-In our experience, modern Linux systems may run into compatibility issues when trying to build and/or run the xv6 kernel. Ubuntu 18.04 has shown to be a known-good version of linux for both building, running, and debugging the last version of xv6. You can run this version of Ubuntu in either a virtual machine or a docker image.
+In our experience, modern Linux systems may run into compatibility issues when trying to build and/or run the xv6 kernel. Ubuntu 18.04 has shown to be a known-good version of linux for both building, running, and debugging the last version of xv6. You can run this version of Ubuntu in either a virtual machine or a Docker image. [This blog post](https://0x1eaf.dev/blog/run-xv6-ostep/) contains instructions on how to run and debug xv6 in an Ubuntu Docker image.
 
 Next, clone the `ostep-homework` and `ostep-projects` repositories:
 ```sh
