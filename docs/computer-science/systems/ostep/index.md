@@ -129,6 +129,8 @@ On macOS, you'll need to install a cross-compiler `gcc` suite capable of produci
 
 On Windows, you can use a Linux virtual machine for the homework and projects. Some of these packages are not yet supported on Apple M1 computers, and virtual machine software has not yet been ported to the new processor architecture; some students have used a VPS to do the homework and projects instead.
 
+In our experience, modern Linux systems may run into compatibility issues when trying to build and/or run the xv6 kernel. Ubuntu 18.04 has shown to be a known-good version of linux for both building, running, and debugging the last version of xv6. You can run this version of Ubuntu in either a virtual machine or a docker image.
+
 Next, clone the `ostep-homework` and `ostep-projects` repositories:
 ```sh
 git clone https://github.com/remzi-arpacidusseau/ostep-homework/
@@ -141,11 +143,21 @@ You'll have to clone [the `xv6-public` repository](https://github.com/mit-pdos/x
 mkdir src
 git clone https://github.com/mit-pdos/xv6-public src
 ```
-
 ### Hints and tips for Projects
 
 - `initial-reverse`: the error messages that are needed to pass the tests were wrong! The provided text said `"error: ..."` but the tests expected `"reverse: ..."` so make sure to match the tests' expectations in your code.
 
+#### Debugging
+Debugging is an essential part of kernel hacking. The xv6-repository offers `qemu-gdb` and `qemu-nox-gdb` as build targets. If you are running xv6 inside a docker container or virtual machine, make sure to have port 25000 on your localhost mapped to port 25000 on the guest OS. 
+
+In order to debug xv6, do the following:
+1. make sure your present working directory is the root of the xv6 repository
+2. run `make qemu-nox-gdb` or `make qemu-gdb`. Wait for your console to output `*** Now run 'gdb'.`. 
+3. in a second terminal, same working directory, run `gdb kernel` to start gdb.
+4. inside gdb, run `target remote localhost:25000` and then `break main` to set a breakpoint at the kernel's main function.
+5. run `continue`to start executing. you are now running xv6 with a debugger attached.****
+
+For more information on how to debug with gdb, see [Beej's Quick Guide to GDB](https://beej.us/guide/bggdb/).
 
 #### xv6
 The xv6 authors provide a [book](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf) that you can read alongside the source code. There's also a handy line-numbered [PDF version](https://pdos.csail.mit.edu/6.828/2018/xv6/xv6-rev11.pdf) of the code with an index to see exactly where each function or constant gets used.
