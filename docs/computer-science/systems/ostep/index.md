@@ -66,35 +66,43 @@ You should either watch all the lecture videos or read chapters 1 through 47 in 
 
 This course was originally taught as CS 537 at the University of Wisconsin by the author of the OSTEP textbook, so the projects are assigned in the course according to the best times to give UWisconsin students access to on-campus resources like recitation sections and office hours. That means they don't match up perfectly with the material being covered at that time in the lectures or textbook chapters. We recommend doing the course in the following order instead.
 
-#### Reading order
+|  Topic  | Readings | Lectures | Projects |
+| ------- | -------- | -------- | ---------|
+| Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | Unix Utilities: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities), [discussion](https://youtu.be/rgcq9x8LtGQ), [hints](#hints-and-tips-for-projects) |
+| **Virtualization** | | | |
+| *Dialogue* | [[3]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-virtualization.pdf) | | |
+| Processes | [[4]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) [[5]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) [[6]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | [[1.3]](https://youtu.be/LVxN7ZkGh3w) [[2.1]](https://youtu.be/oTd72Yp2m8w) | Unix Shell: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/processes-shell), [discussion](https://youtu.be/76PfvXTwF04), [hints](Project-2A-processes-shell) |
+| Scheduling | [[7]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) [[8]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) [[9]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) [[10]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-multi.pdf) | [[2.2]](https://youtu.be/Q09UgVfragU) [[2.3]](https://youtu.be/fin5-82L-r8) [[3.1]](https://youtu.be/cAiwISFta4g) | xv6 Intro: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-xv6), [discussion](https://www.youtube.com/watch?v=vR6z2QGcoo8), [hints](Project-1B-initial-xv6) <br /> xv6 Lottery Scheduler: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/scheduling-xv6-lottery), [discussion](https://www.youtube.com/watch?v=eYfeOT1QYmg), [hints](Scheduling-xv6-lottery) |
+| *Summary* | [[11]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-dialogue.pdf) | | |
+| *Dialogue* | [[12]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-vm.pdf) | | |
+| Virtual Memory | [[13]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) [[14]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf) [[15]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) [[16]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf) [[17]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf) | [[3.2]](https://youtu.be/I0RIlSN0DzM) [[3.3]](https://youtu.be/0WVoWlOT-kY) |  |
+| Paging | [[18]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf) [[19]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf) [[20]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf) | [[4.1]](https://youtu.be/wAx_h3HkIX0) [[4.2]](https://youtu.be/7BOXM2XgGO4) [[4.3]](https://youtu.be/LprKOBsALGA) [[5.1]](https://www.youtube.com/watch?v=ggPkFxOTwHY) | |
+| Beyond physical | [[21]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf) [[22]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf) [[23]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-complete.pdf) | [[5.2]](https://www.youtube.com/watch?v=4tPXkN5nRQs) | xv6 Virtual Memory: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/vm-xv6-intro), [discussion 1](https://youtu.be/z6dqk6iBBRY?t=1305), [discussion 2](https://www.youtube.com/watch?v=WVHRaqom0y), [hints](vm-xv6-intro) |
+| *Summary* | [[24]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-dialogue.pdf) | | |
+| **Concurrency** | | | |
+| *Dialogue* | [[25]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-concurrency.pdf) | | | |
+| Threads |[[26]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) [[27]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [[6.1]](https://www.youtube.com/watch?v=4PghlMdp9cU) | |
+| Concurrency primitives | [[28]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf) [[29]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf) [[30]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf) [[31]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | [[6.2]](https://www.youtube.com/watch?v=hivv8F-LjzY) [[6.3]](https://youtu.be/BoLYvNp2Lc4) [[7.1]](https://www.youtube.com/watch?v=G95w4ghn42A) [[7.2]](https://www.youtube.com/watch?v=X5clCyJ4uuk) [[7.3]](https://youtu.be/RN8A9EvKBdY) [[8.1]](https://youtu.be/U1LfmL7f1h8) [[8.2]](https://youtu.be/cuY8r8RXqAY) | |
+| More topics in concurrency | [[32]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf) [[33]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-events.pdf) | [[9.1]](https://youtu.be/Fnp_K63ss44) [[9.2]](https://youtu.be/AMG29dlH8t0) | Parallel Zip: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-pzip), [discussion 1](https://www.youtube.com/watch?v=z6dqk6iBBRY), [discussion 2](https://www.youtube.com/watch?v=WVHRaqom0yo) <br /> MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion](https://youtu.be/tSiJ_oBSOZE?t=34), [Q/A](https://www.youtube.com/watch?v=jVmWrr8y0Uw) <br />  Kernel Threads: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-xv6-threads), [discussion](https://www.youtube.com/watch?v=G9nW9UbkT7s) |
+| *Summary* | [[34]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-dialogue.pdf) | | |
+| **Midterm review** | | [Review](https://www.youtube.com/watch?v=doHSi2ffu9I) | |
+| **Persistence** |
+| *Dialogue* | [[35]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-persistence.pdf) | | |
+| IO and Disks | [[36]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf) [[37]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf) | [[10.1]](https://youtu.be/SQz2CTpI-NM) [[10.2]](https://youtu.be/15dJR01z82k) [[10.3]](https://youtu.be/yErUVST4Fv0) | |
+| RAID | [[38]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf) | [[11.1]](https://youtu.be/XF0mKxLrSVs) [[11.2]](https://youtu.be/h3WKYo1B19U) [[11.3]](https://youtu.be/Mn9g9XWec28) | |
+| Filesystems | [[39]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) [[40]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)  | [[11.4]](https://youtu.be/EDFoFlzZ8_w) [[12.1]](https://youtu.be/QMjJlCqUYW4) [[12.2]](https://youtu.be/87vv7nVdTDA) [[12.3]](https://youtu.be/5n0AdNuBObU) | |
+| Crash consistency, journaling, FFS | [[41]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf) [[42]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf) | [[13.1]](https://youtu.be/piwPJ0sLV0Y) [[13.2]](https://youtu.be/MgnQV-ss1wc) [[13.3]](https://youtu.be/wwvMNItRyl8) | |
+| LFS and SSDs | [[43]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf) [[44]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) | [[14.1]](https://youtu.be/59XSFnXQ-9Q) [[14.2]](https://youtu.be/6fbm9u7__L0) [[14.3]](https://youtu.be/vvttbstRdj8) [[14.4]](https://youtu.be/sKTyhqvTUBU) | |
+| Data Integrity and Protection | [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | File System Checker: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/filesystems-checker) |
+| *Summary* | [[46]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-dialogue.pdf) | | |
+| **End of class review** | | [Part 1](https://www.youtube.com/watch?v=TSiMDPFquO4), [Part 2](https://youtu.be/jIcw7B36oBU) | |
 
-* Before starting the course: `initial-utilities` (aka, project 1a) and `initial-reverse` (not assigned in class)
-* Chapter 5: `processes-shell` (project 2a)
-* Chapter 6: `initial-xv6` (project 1b, but only worry about test 1)
-* Chapter 9: `scheduling-xv6-lottery` (project 2b)
-* Chapter 24: `vm-xv6-intro` (project 3b)
-* Chapter 28: `initial-xv6` (now pass test 2)
-* Chapter 29: `concurrency-xv6-threads` (project 4b)
-* Chapter 30: `concurrency-mapreduce` (project 4a)
-* Chapter 33: `concurrency-webserver` (not assigned in class)
-* Chapter 42: `filesystems-checker` (project 5a)
-* (there is no 5b, and there are no projects for chapters 43-51)
+### Advanced Topics
 
-**Notes:**
-
-* Read chapters 1 and 2 of the OSTEP textbook and watch the first half (the introduction) of lecture 1.
-* Do the `initial-utilities` project; it's intended as a litmus test for you to make sure you're comfortable enough with C before taking this class. You can watch discussion 1 for help. If it takes you more than 2 hours to write the code (not counting the discussion time and any time spent debugging), you should consider spending more time learning C before moving on in the course. (If you want more practice, you can do `initial-reverse` too, but it's not required.)
-* Watch lectures 1 through 5 and read chapters 3 through 24 of the OSTEP textbook. We recommend doing the homework assignments as they come up in the course calendar or book chapters.
-* Watch discussion 3 and reread chapter 5, then do the `processes-shell` project.
-* Read the annotated guide to xv6 linked in the resources section below, starting from the beginning and stopping after the `System Calls: Processes` section.
-* Watch discussion 2, then do the `initial-xv6` project.
-* Watch discussion 5, then do the `scheduling-xv6-lottery` project.
-* Watch discussion 7, then do the `vm-xv6-intro` project.
-* Watch lectures 6 through 9 (and optionally, the review lecture) and read chapters 25 through 34; again, you're encouraged to do the homework.
-* Watch discussion 10, then do the `concurrency-xv6-threads` project.
-* Watch discussions 11 and 12, then do the `concurrency-mapreduce` project.
-* Watch lectures 10 through 14 (and optionally, the second review lecture) and read chapters 35 through 47; remember to do the homework along with the lectures or chapters.
-* Do the `filesystems-checker` project.
+|  Topic  | Readings  |
+| ------- | --------- |
+| **Distributed systems** | [[47]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-distribution.pdf) [[48]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-intro.pdf) [[49]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-nfs.pdf) [[50]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-afs.pdf) [[51]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-afs.pdf) | [[51]](https://pages.cs.wisc.edu/~remzi/OSTEP/dist-dialogue.pdf) |
+| **Security** | [[52]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-security.pdf) [[53]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-intro.pdf) [[54]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-authentication.pdf) [[55]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-access.pdf) [[56]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-crypto.pdf) [[57]](https://pages.cs.wisc.edu/~remzi/OSTEP/security-distributed.pdf) |
 
 ### Running the Projects
 
@@ -115,18 +123,18 @@ In order to run the homework and projects on Linux or macOS, you'll need to have
 * `gawk`
 * `expect`
 * `git`
-
-You will also need to install `qemu`, but we recommend using the patched version provided by the xv6 authors; see [this link](https://pdos.csail.mit.edu/6.828/2018/tools.html) for details.
+* `qemu`
 
 On macOS, you'll need to install a cross-compiler `gcc` suite capable of producing x86 ELF binaries; see the link above for details as well.
 
 On Windows, you can use a Linux virtual machine for the homework and projects. Some of these packages are not yet supported on Apple M1 computers, and virtual machine software has not yet been ported to the new processor architecture; some students have used a VPS to do the homework and projects instead.
 
+In our experience, modern Linux systems may run into compatibility issues when trying to build and/or run the xv6 kernel. Ubuntu 18.04 has shown to be a known-good version of linux for both building, running, and debugging the last version of xv6. You can run this version of Ubuntu in either a virtual machine or a Docker image. [This blog post](https://0x1eaf.dev/blog/run-xv6-ostep/) contains instructions on how to run and debug xv6 in an Ubuntu Docker image.
+
 Next, clone the `ostep-homework` and `ostep-projects` repositories:
 ```sh
 git clone https://github.com/remzi-arpacidusseau/ostep-homework/
 git clone https://github.com/remzi-arpacidusseau/ostep-projects/
-cd ostep-projects
 ```
 
 You'll have to clone [the `xv6-public` repository](https://github.com/mit-pdos/xv6-public) into the directory for each xv6-related OSTEP project. You could use the same copy for all the projects, but we recommend using separate copies to avoid previous projects causing bugs for later ones. Run the following commands in *each* of the `initial-xv6`, `scheduling-xv6-lottery`, `vm-xv6-intro`, `concurrency-xv6-threads`, and `filesystems-checker` directories.
@@ -135,19 +143,23 @@ You'll have to clone [the `xv6-public` repository](https://github.com/mit-pdos/x
 mkdir src
 git clone https://github.com/mit-pdos/xv6-public src
 ```
-
 ### Hints and tips for Projects
 
 - `initial-reverse`: the error messages that are needed to pass the tests were wrong! The provided text said `"error: ..."` but the tests expected `"reverse: ..."` so make sure to match the tests' expectations in your code.
-- [hints and tips for `processes-shell`](Project-2A-processes-shell)
-- [hints for Project 1B: `initial-xv6`](Project-1B-initial-xv6)
-- [hints for `scheduling-xv6-lottery`](Scheduling-xv6-lottery)
-- [hints for `vm-xv6-intro`](vm-xv6-intro)
+
+#### Debugging
+Debugging is an essential part of kernel hacking. The xv6-repository offers `qemu-gdb` and `qemu-nox-gdb` as build targets. If you are running xv6 inside a docker container or virtual machine, make sure to have port 25000 on your localhost mapped to port 25000 on the guest OS. 
+
+In order to debug xv6, do the following:
+1. make sure your present working directory is the root of the xv6 repository
+2. run `make qemu-nox-gdb` or `make qemu-gdb`. Wait for your console to output `*** Now run 'gdb'.`. 
+3. in a second terminal, same working directory, run `gdb kernel` to start gdb.
+4. inside gdb, run `target remote localhost:25000` and then `break main` to set a breakpoint at the kernel's main function.
+5. run `continue`to start executing. you are now running xv6 with a debugger attached.****
+
+For more information on how to debug with gdb, see [Beej's Quick Guide to GDB](https://beej.us/guide/bggdb/).
 
 #### xv6
-
-You don't need to read anything about xv6 until after you start OSTEP; in fact, we recommend holding off on the xv6-related projects until you've finished the entire section on virtualization. After that, you'll need a guide to walk you through the source code.
-
 The xv6 authors provide a [book](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf) that you can read alongside the source code. There's also a handy line-numbered [PDF version](https://pdos.csail.mit.edu/6.828/2018/xv6/xv6-rev11.pdf) of the code with an index to see exactly where each function or constant gets used.
 
 However, that book glosses over a lot of the details in the code that you might find challenging, including the advanced C features used, the x86 architecture- specific instructions, and the concurrency aspects (if you haven't finished that section of OSTEP before starting the xv6 projects). To solve this problem, we provide an [annotated guide to xv6](https://github.com/palladian1/xv6-annotated) that goes over the entire xv6 code and analyzes it line-by-line with explanations of the C features, hardware specs, and x86 conventions used. That means it's longer than the official xv6 book, so you don't have to read all of it (and you can probably skip the optional sections unless you care about device drivers), but you can use it as a reference if you're scratching your head about some part of the code.
