@@ -68,7 +68,7 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 
 |  Topic  | Readings | Lectures | Projects |
 | ------- | -------- | -------- | ---------|
-| Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | Unix Utilities: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities), [discussion](https://youtu.be/rgcq9x8LtGQ), [hints](#hints-and-tips-for-projects) |
+| Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | Unix Utilities: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities), [discussion](https://youtu.be/rgcq9x8LtGQ), [hints](#initial-reverse) |
 | **Virtualization** | | | |
 | *Dialogue* | [[3]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-virtualization.pdf) | | |
 | Processes | [[4]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) [[5]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) [[6]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | [[1.3]](https://youtu.be/LVxN7ZkGh3w) [[2.1]](https://youtu.be/oTd72Yp2m8w) | Unix Shell: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/processes-shell), [discussion](https://youtu.be/76PfvXTwF04), [hints](Project-2A-processes-shell) |
@@ -83,7 +83,7 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 | *Dialogue* | [[25]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-concurrency.pdf) | | | |
 | Threads |[[26]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) [[27]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [[6.1]](https://www.youtube.com/watch?v=4PghlMdp9cU) | |
 | Concurrency primitives | [[28]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf) [[29]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf) [[30]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf) [[31]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | [[6.2]](https://www.youtube.com/watch?v=hivv8F-LjzY) [[6.3]](https://youtu.be/BoLYvNp2Lc4) [[7.1]](https://www.youtube.com/watch?v=G95w4ghn42A) [[7.2]](https://www.youtube.com/watch?v=X5clCyJ4uuk) [[7.3]](https://youtu.be/RN8A9EvKBdY) [[8.1]](https://youtu.be/U1LfmL7f1h8) [[8.2]](https://youtu.be/cuY8r8RXqAY) | |
-| More topics in concurrency | [[32]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf) [[33]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-events.pdf) | [[9.1]](https://youtu.be/Fnp_K63ss44) [[9.2]](https://youtu.be/AMG29dlH8t0) | Parallel Zip: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-pzip), [discussion 1](https://www.youtube.com/watch?v=z6dqk6iBBRY), [discussion 2](https://www.youtube.com/watch?v=WVHRaqom0yo) <br /> MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion](https://youtu.be/tSiJ_oBSOZE?t=34), [Q/A](https://www.youtube.com/watch?v=jVmWrr8y0Uw) <br />  Kernel Threads: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-xv6-threads), [discussion](https://www.youtube.com/watch?v=G9nW9UbkT7s) |
+| More topics in concurrency | [[32]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf) [[33]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-events.pdf) | [[9.1]](https://youtu.be/Fnp_K63ss44) [[9.2]](https://youtu.be/AMG29dlH8t0) | Parallel Zip: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-pzip), [discussion 1](https://www.youtube.com/watch?v=z6dqk6iBBRY), [discussion 2](https://www.youtube.com/watch?v=WVHRaqom0yo) <br /> MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion](https://youtu.be/tSiJ_oBSOZE?t=34), [Q/A](https://www.youtube.com/watch?v=jVmWrr8y0Uw) <br />  Kernel Threads: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-xv6-threads), [discussion](https://www.youtube.com/watch?v=G9nW9UbkT7s), [hints](#xv6-kernel-threads) |
 | *Summary* | [[34]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-dialogue.pdf) | | |
 | **Midterm review** | | [Review](https://www.youtube.com/watch?v=doHSi2ffu9I) | |
 | **Persistence** |
@@ -145,8 +145,6 @@ git clone https://github.com/mit-pdos/xv6-public src
 ```
 ### Hints and tips for Projects
 
-- `initial-reverse`: the error messages that are needed to pass the tests were wrong! The provided text said `"error: ..."` but the tests expected `"reverse: ..."` so make sure to match the tests' expectations in your code.
-
 #### Debugging
 Debugging is an essential part of kernel hacking. The xv6-repository offers `qemu-gdb` and `qemu-nox-gdb` as build targets. If you are running xv6 inside a docker container or virtual machine, make sure to have port 25000 on your localhost mapped to port 25000 on the guest OS. 
 
@@ -167,6 +165,25 @@ However, that book glosses over a lot of the details in the code that you might 
 [Here](https://github.com/YehudaShapira/xv6-explained) is another in-depth explanation of the xv6 code.
 
 Also [here](https://www.youtube.com/playlist?list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB) is an excellent video series walking through much of the xv6 code.
+
+#### Initial Reverse
+The error messages that are needed to pass the tests were wrong! The provided text said `"error: ..."` but the tests expected `"reverse: ..."` so make sure to match the tests' expectations in your code.
+
+#### xv6 Kernel Threads
+The [discussion](https://www.youtube.com/watch?v=G9nW9UbkT7s) provides some critical information about x86 calling conventions and how to manipulate the stack that you *will* need in order to complete this project.
+
+As of December 2025 this project does not have any tests to verify your work, so you will have to create that yourself. We suggest the creating verification steps for the following:
+1. Thread implementation  
+   - Verify that the cloned actually runs the supplied function.
+   - Verify that it shares memory with its parent
+   - Verify that the supplied stack-address gets returned by the subsequent join
+   - Verify that if a thread doesn't call exit, it returns to 0xffffffff, causing a kernel trap, as opposed to the function that created the thread.
+2. Lock
+   - Create a race condition and verify that it actually triggers
+   - Verify that the lock protects against the race condition
+The thread implementation itself should be straightforward to verify as it can be done by simply setting some variables and comparing them after a join. The tricky part is the race condition. You might be tempted to recreate the multi-threaded loop-counting example from the book, however, it turns out that it can be very difficult to mkae that race condition trigger at all. We believe this is a quirk of running xv6 inside QEMU.
+
+Instead, we recommend having a critical section of code that invokes multiple system calls. This guarantees interrupts, increasing the likelyhood of race conditions causing problems. A good candidate is printf. The xv6 implementation of printf invokes a write-syscall of a single byte for each printed character. Thus, if you use printf concurrently across multiple threads, there is a high chance that the terminal output gets garbled, unless you hold a working mutex lock for the duration of the printf-call. 
 
 #### Miscellaneous
 
