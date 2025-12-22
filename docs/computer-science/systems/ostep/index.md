@@ -187,7 +187,8 @@ As of December 2025 this project does not have any tests to verify your work, so
 2. Lock
    - Create a race condition and verify that it actually triggers
    - Verify that the lock protects against the race condition
-The thread implementation itself should be straightforward to verify as it can be done by simply setting some variables and comparing them after a join. The tricky part is the race condition. You might be tempted to recreate the multi-threaded loop-counting example from the book, however, it turns out that it can be very difficult to mkae that race condition trigger at all. We believe this is a quirk of running xv6 inside QEMU.
+
+The thread implementation itself should be straightforward to verify as it can be done by simply setting some variables and comparing them after a join. The tricky part is the race condition. You might be tempted to recreate the multi-threaded loop-counting example from the book, however, it turns out that it can be very difficult to make that race condition trigger at all. We believe this is a quirk of running xv6 inside QEMU.
 
 Instead, we recommend having a critical section of code that invokes multiple system calls. This guarantees interrupts, increasing the likelyhood of race conditions causing problems. A good candidate is printf. The xv6 implementation of printf invokes a write-syscall of a single byte for each printed character. Thus, if you use printf concurrently across multiple threads, there is a high chance that the terminal output gets garbled, unless you hold a working mutex lock for the duration of the printf-call. 
 
