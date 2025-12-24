@@ -15,6 +15,8 @@ The BORR Project started out as a community fork of OSSU to rebuild the communit
 - Our Discord server leverages new community features like onboarding, forums, event channels, and AutoMod. We also recently activated our server tag.
 - Despite having only 91 members (at the time of writing), we observed **27% more activity** in public channels over the last 6 months compared to the OSSU server.
 - We held active cohort meetings with consistent participation and organized a server event around the CodinGame Summer Challenge.
+- We launched our Study Hall, which gave home to numerous public study sessions and quite a few teamworks.
+- Because puzzle solving is fun, we also organized an event around Advent of Code 2025. Being our most popular event at this point, it proved to be nicely balanced between competition and collaboration.
 - We have started working on formalizing the governance structure of the project, and working on a draft of the project bylaws. We are aiming for a governance structure that is open and collaborative, while not being too bureaucratic. We are tking inspiration from several prominent open source projects.
 
 ### Curriculum
