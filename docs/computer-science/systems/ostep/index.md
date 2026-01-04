@@ -6,8 +6,7 @@ sidebar_position: 3
 *Timeline: 80 - 200+ hours*,
 Credit goes to [palladian](https://github.com/palladian1)
 ## Introduction
-
-First, we should be frank: it's really hard to find a good self-contained online course on operating systems. OSTEP is the best course we've found so far. We describe below two approaches to the course, a "Base" approach which is suitable for most students, and an "Extended" approach, which is appropriate for students intending to specialize in systems programming.
+For the subject of operating systems, we offer two options: a "base" approach which is suitable for most students, and an "extended" approach for those that want to specialize in systems-level programming.
 
 The "base" approach covers all of our operating system curriculum requirements and should take about 80 hours of work.
 
