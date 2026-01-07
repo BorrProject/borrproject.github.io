@@ -135,7 +135,7 @@ Learn how computers actually works. You will build a simulated version of a comp
 
 *Timeline: 64 - 128 hours*
 
-*Prerequisites: [Discrete Math](math/discrete-math/), [Program Design](program-design/)*
+*Prerequisites: [Discrete Math](math/discrete-math/index.md), [Program Design](program-design/)*
 
 Get a perspective into why certain ways of solving a problem are better than others. Learn about complexity and theoretical limits of algorithms. Get an idea of what computers can or cannot do. These courses are the pillars of Computer Science.
 - [Theory](theory/index.md)
