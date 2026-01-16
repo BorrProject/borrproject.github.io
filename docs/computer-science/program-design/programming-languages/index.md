@@ -13,6 +13,6 @@ This course is neither particularly theoretical nor just about programming speci
 
 The course assumes some prior experience with programming. *This is covered by the previous courses in [Program Design](../)*.
 
-- [Lecture Videos, Notes and associated files](https://courses.cs.washington.edu/courses/cse341/19au/#lectures)
-- [Homeworks](https://courses.cs.washington.edu/courses/cse341/19au/#homeworks)
-- [Exams](https://courses.cs.washington.edu/courses/cse341/19au/#exams)
+- [Lecture Videos, Notes and associated files](https://courses.cs.washington.edu/courses/cse341/20sp/calendar.html) (click on the "Video Notes" link, not the "Lecture Recording" links)
+- [Homeworks](https://courses.cs.washington.edu/courses/cse341/20sp/homework.html)
+- [Quizes](https://courses.cs.washington.edu/courses/cse341/20sp/quizzes.html)
