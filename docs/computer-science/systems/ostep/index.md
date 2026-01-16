@@ -92,7 +92,7 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 | Filesystems | [[39]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) [[40]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)  | [[11.4]](https://youtu.be/EDFoFlzZ8_w) [[12.1]](https://youtu.be/QMjJlCqUYW4) [[12.2]](https://youtu.be/87vv7nVdTDA) [[12.3]](https://youtu.be/5n0AdNuBObU) | |
 | Crash consistency, journaling, FFS | [[41]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf) [[42]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf) | [[13.1]](https://youtu.be/piwPJ0sLV0Y) [[13.2]](https://youtu.be/MgnQV-ss1wc) [[13.3]](https://youtu.be/wwvMNItRyl8) | |
 | LFS and SSDs | [[43]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf) [[44]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) | [[14.1]](https://youtu.be/59XSFnXQ-9Q) [[14.2]](https://youtu.be/6fbm9u7__L0) [[14.3]](https://youtu.be/vvttbstRdj8) [[14.4]](https://youtu.be/sKTyhqvTUBU) | |
-| Data Integrity and Protection | [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | File System Checker: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/filesystems-checker) |
+| Data Integrity and Protection | [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | Mini-WFS: [details](https://git.doit.wisc.edu/cdis/cs/courses/cs537/fall25/p6/p6-base), [hints](#mini-wfs) |
 | *Summary* | [[46]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-dialogue.pdf) | | |
 | **End of class review** | | [Part 1](https://www.youtube.com/watch?v=TSiMDPFquO4), [Part 2](https://youtu.be/jIcw7B36oBU) | |
 
@@ -128,9 +128,9 @@ On macOS, you'll need to install a cross-compiler `gcc` suite capable of produci
 
 On Windows, you can use a Linux virtual machine for the homework and projects. Some of these packages are not yet supported on Apple M1 computers, and virtual machine software has not yet been ported to the new processor architecture; some students have used a VPS to do the homework and projects instead.
 
-In our experience, modern Linux systems may run into compatibility issues when trying to build and/or run the xv6 kernel. Ubuntu 18.04 has shown to be a known-good version of linux for both building, running, and debugging the last version of xv6. You can run this version of Ubuntu in either a virtual machine or a Docker image. [This blog post](https://0x1eaf.dev/blog/run-xv6-ostep/) contains instructions on how to run and debug xv6 in an Ubuntu Docker image.
+In our experience, modern Linux systems may run into compatibility issues when trying to build and/or run the xv6 kernel. Ubuntu 18.04 has shown to be a known-good version of linux for both building, running, and debugging the last version of xv6. You can run this version of Ubuntu in either a virtual machine or a Docker image. [This blog post](https://0x1eaf.dev/blog/run-xv6-ostep/) contains instructions on how to run and debug xv6 in an Ubuntu Docker image. UW-Madison has also made a Docker image available [here](https://git.doit.wisc.edu/cdis/cs/courses/cs537/useful-resources/cs537-docker).
 
-Next, clone the `ostep-homework` and `ostep-projects` repositories:
+For the homeworks and most projects, we use the GitHub repositories authored by Remzi. You can get them by cloning the `ostep-homework` and `ostep-projects` repositories:
 ```sh
 git clone https://github.com/remzi-arpacidusseau/ostep-homework/
 git clone https://github.com/remzi-arpacidusseau/ostep-projects/
@@ -142,6 +142,9 @@ You'll have to clone [the `xv6-public` repository](https://github.com/mit-pdos/x
 mkdir src
 git clone https://github.com/mit-pdos/xv6-public src
 ```
+
+In some cases, we have found that the projects are either lacking in tests or in compatibility with the publicly available revisions of xv6. In those cases, we have chosen to replace those projects with projects from the [UW Madison GitLab](https://git.doit.wisc.edu/cdis/cs/courses/cs537/). Any projects from here will have a dedicated git repository for you to clone, which includes any material you may need such as an appropriate version of the xv6-kernel. For these projects, make your changes in the `solution`-directory of the repository, and run `tests/run-tests.sh` from the root of the repository in order to check your work.
+
 ### Hints and tips for Projects
 
 #### Debugging
@@ -190,6 +193,9 @@ As of December 2025 this project does not have any tests to verify your work, so
 The thread implementation itself should be straightforward to verify as it can be done by simply setting some variables and comparing them after a join. The tricky part is the race condition. You might be tempted to recreate the multi-threaded loop-counting example from the book, however, it turns out that it can be very difficult to make that race condition trigger at all. We believe this is a quirk of running xv6 inside QEMU.
 
 Instead, we recommend having a critical section of code that invokes multiple system calls. This guarantees interrupts, increasing the likelyhood of race conditions causing problems. A good candidate is printf. The xv6 implementation of printf invokes a write-syscall of a single byte for each printed character. Thus, if you use printf concurrently across multiple threads, there is a high chance that the terminal output gets garbled, unless you hold a working mutex lock for the duration of the printf-call. 
+
+#### Mini-WFS
+TBW
 
 #### Miscellaneous
 
