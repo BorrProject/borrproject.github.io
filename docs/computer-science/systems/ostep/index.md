@@ -44,7 +44,7 @@ If you are getting stuck on these, please don't spend too much time on them. The
 
 
 ## Extended Approach
-If you've chosen this option, it is a *must* that you complete *both* courses in [Intro to Computer Systems](../computer-systems/index.md) or equivalent first.
+If you've chosen this ophttps://www.reddit.com/r/Twitch/comments/11oy4y2/extremely_low_quality_streams_0_quality_on_all/tion, it is a *must* that you complete *both* courses in [Intro to Computer Systems](../computer-systems/index.md) or equivalent first.
 
 That said, if you're able to commit the time required for the prerequisites, we believe the reward is well worth the effort: this course is exciting, interesting, and quite useful for other fields of computer science and programming. One big attraction of this course is the opportunity to see a simplified but fully-functional Unix-like operating system in action and understand the concepts and design decisions that went into it as well as the low-level implementation details.
 
@@ -67,22 +67,22 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 
 |  Topic  | Readings | Lectures | Projects |
 | ------- | -------- | -------- | ---------|
-| Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | Unix Utilities: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities), [discussion](https://youtu.be/rgcq9x8LtGQ) |
+| Intro   | [[pre]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/preface.pdf) [[1]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/dialogue-threeeasy.pdf) [[2]](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Book/intro.pdf) | [[1.1]](https://www.youtube.com/watch?v=3uMbb9dLtlE) [[1.2]](https://www.youtube.com/watch?v=K4qbAiC77Yo) | [Unix Utilities](#unix-utilities) |
 | **Virtualization** | | | |
 | *Dialogue* | [[3]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-virtualization.pdf) | | |
-| Processes | [[4]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) [[5]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) [[6]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | [[1.3]](https://youtu.be/LVxN7ZkGh3w) [[2.1]](https://youtu.be/oTd72Yp2m8w) | Unix Shell: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/processes-shell), [discussion](https://youtu.be/76PfvXTwF04), [hints](Project-2A-processes-shell) |
-| Scheduling | [[7]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) [[8]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) [[9]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) [[10]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-multi.pdf) | [[2.2]](https://youtu.be/Q09UgVfragU) [[2.3]](https://youtu.be/fin5-82L-r8) [[3.1]](https://youtu.be/cAiwISFta4g) | xv6 Intro: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-xv6), [discussion](https://www.youtube.com/watch?v=vR6z2QGcoo8), [hints](Project-1B-initial-xv6) <br /> xv6 Lottery Scheduler: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/scheduling-xv6-lottery), [discussion](https://www.youtube.com/watch?v=eYfeOT1QYmg), [hints](Scheduling-xv6-lottery) |
+| Processes | [[4]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) [[5]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) [[6]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | [[1.3]](https://youtu.be/LVxN7ZkGh3w) [[2.1]](https://youtu.be/oTd72Yp2m8w) | [Unix Shell](#unix-shell) |
+| Scheduling | [[7]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) [[8]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) [[9]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) [[10]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-multi.pdf) | [[2.2]](https://youtu.be/Q09UgVfragU) [[2.3]](https://youtu.be/fin5-82L-r8) [[3.1]](https://youtu.be/cAiwISFta4g) | [xv6 Intro](#xv6-intro)  <br /> [STCF-scheduler](#stcf-scheduler)  |
 | *Summary* | [[11]](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-dialogue.pdf) | | |
 | *Dialogue* | [[12]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-vm.pdf) | | |
 | Virtual Memory | [[13]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) [[14]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf) [[15]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) [[16]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf) [[17]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf) | [[3.2]](https://youtu.be/I0RIlSN0DzM) [[3.3]](https://youtu.be/0WVoWlOT-kY) |  |
 | Paging | [[18]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf) [[19]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf) [[20]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf) | [[4.1]](https://youtu.be/wAx_h3HkIX0) [[4.2]](https://youtu.be/7BOXM2XgGO4) [[4.3]](https://youtu.be/LprKOBsALGA) [[5.1]](https://www.youtube.com/watch?v=ggPkFxOTwHY) | |
-| Beyond physical | [[21]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf) [[22]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf) [[23]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-complete.pdf) | [[5.2]](https://www.youtube.com/watch?v=4tPXkN5nRQs) | xv6 Virtual Memory: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/vm-xv6-intro), [discussion 1](https://youtu.be/z6dqk6iBBRY?t=1305), [discussion 2](https://www.youtube.com/watch?v=WVHRaqom0y), [hints](vm-xv6-intro) |
+| Beyond physical | [[21]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf) [[22]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf) [[23]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-complete.pdf) | [[5.2]](https://www.youtube.com/watch?v=4tPXkN5nRQs) | [Virtual Memory](#virtual-memory) |
 | *Summary* | [[24]](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-dialogue.pdf) | | |
 | **Concurrency** | | | |
 | *Dialogue* | [[25]](https://pages.cs.wisc.edu/~remzi/OSTEP/dialogue-concurrency.pdf) | | | |
 | Threads |[[26]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) [[27]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [[6.1]](https://www.youtube.com/watch?v=4PghlMdp9cU) | |
 | Concurrency primitives | [[28]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf) [[29]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf) [[30]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf) [[31]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | [[6.2]](https://www.youtube.com/watch?v=hivv8F-LjzY) [[6.3]](https://youtu.be/BoLYvNp2Lc4) [[7.1]](https://www.youtube.com/watch?v=G95w4ghn42A) [[7.2]](https://www.youtube.com/watch?v=X5clCyJ4uuk) [[7.3]](https://youtu.be/RN8A9EvKBdY) [[8.1]](https://youtu.be/U1LfmL7f1h8) [[8.2]](https://youtu.be/cuY8r8RXqAY) | |
-| More topics in concurrency | [[32]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf) [[33]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-events.pdf) | [[9.1]](https://youtu.be/Fnp_K63ss44) [[9.2]](https://youtu.be/AMG29dlH8t0) | Parallel Zip: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-pzip), [discussion 1](https://www.youtube.com/watch?v=z6dqk6iBBRY), [discussion 2](https://www.youtube.com/watch?v=WVHRaqom0yo) <br /> MapReduce: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce), [discussion](https://youtu.be/tSiJ_oBSOZE?t=34), [Q/A](https://www.youtube.com/watch?v=jVmWrr8y0Uw) <br />  Kernel Threads: [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-xv6-threads), [discussion](https://www.youtube.com/watch?v=G9nW9UbkT7s), [hints](#xv6-kernel-threads) |
+| More topics in concurrency | [[32]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf) [[33]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-events.pdf) | [[9.1]](https://youtu.be/Fnp_K63ss44) [[9.2]](https://youtu.be/AMG29dlH8t0) | [MapReduce](#mapreduce)  |
 | *Summary* | [[34]](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-dialogue.pdf) | | |
 | **Midterm review** | | [Review](https://www.youtube.com/watch?v=doHSi2ffu9I) | |
 | **Persistence** |
@@ -92,7 +92,7 @@ This course was originally taught as CS 537 at the University of Wisconsin by th
 | Filesystems | [[39]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) [[40]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)  | [[11.4]](https://youtu.be/EDFoFlzZ8_w) [[12.1]](https://youtu.be/QMjJlCqUYW4) [[12.2]](https://youtu.be/87vv7nVdTDA) [[12.3]](https://youtu.be/5n0AdNuBObU) | |
 | Crash consistency, journaling, FFS | [[41]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ffs.pdf) [[42]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf) | [[13.1]](https://youtu.be/piwPJ0sLV0Y) [[13.2]](https://youtu.be/MgnQV-ss1wc) [[13.3]](https://youtu.be/wwvMNItRyl8) | |
 | LFS and SSDs | [[43]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf) [[44]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) | [[14.1]](https://youtu.be/59XSFnXQ-9Q) [[14.2]](https://youtu.be/6fbm9u7__L0) [[14.3]](https://youtu.be/vvttbstRdj8) [[14.4]](https://youtu.be/sKTyhqvTUBU) | |
-| Data Integrity and Protection | [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | Mini-WFS: [details](https://git.doit.wisc.edu/cdis/cs/courses/cs537/fall25/p6/p6-base), [hints](#mini-wfs) |
+| Data Integrity and Protection | [[45]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-integrity.pdf) | | [Mini-WFS](#mini-wfs)  |
 | *Summary* | [[46]](https://pages.cs.wisc.edu/~remzi/OSTEP/file-dialogue.pdf) | | |
 | **End of class review** | | [Part 1](https://www.youtube.com/watch?v=TSiMDPFquO4), [Part 2](https://youtu.be/jIcw7B36oBU) | |
 
@@ -194,9 +194,6 @@ The thread implementation itself should be straightforward to verify as it can b
 
 Instead, we recommend having a critical section of code that invokes multiple system calls. This guarantees interrupts, increasing the likelyhood of race conditions causing problems. A good candidate is printf. The xv6 implementation of printf invokes a write-syscall of a single byte for each printed character. Thus, if you use printf concurrently across multiple threads, there is a high chance that the terminal output gets garbled, unless you hold a working mutex lock for the duration of the printf-call. 
 
-#### Mini-WFS
-TBW
-
 #### Miscellaneous
 
 You'll need a general sense of how Makefiles work in order to use the Makefile for xv6. [This tutorial](https://makefiletutorial.com) covers much more than you need; just read the "Getting Started" and "Targets" sections and come back to the rest later if you need to look something up (but you shouldn't have to).
@@ -206,3 +203,60 @@ Additional (optional) resources include:
 * [Linker Scripts](https://sourceware.org/binutils/docs/ld/Scripts.html#Scripts): a guide to writing scripts for the GNU linker `ld`.
 * [OSDev Wiki](https://wiki.osdev.org): a great resource for all kinds of OS concepts and implementation details.
 * [*Linux Kernel Development*](https://www.amazon.com/dp/0672329468): if you want to apply your xv6 knowledge toward contributing to the Linux kernel, this is a great read after OSTEP.
+
+### STCF-scheduler
+**Trial project**: This project is currently being tried as a replacement for the xv6 lottery scheduler project. If you wish to do the old project instead, click [here](#xv6-lottery-scheduler).
+- [Project repository](https://git.doit.wisc.edu/cdis/cs/courses/cs537/fall25/p3/p3-base)
+
+The discussion video and hints for the lottery scheduler project will likely be helpful for this project too.
+
+## Project directory
+
+### Unix Utilities
+- [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-utilities)
+- [discussion](https://youtu.be/rgcq9x8LtGQ)
+
+### Unix Shell
+- [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/processes-shell)
+- [discussion](https://youtu.be/76PfvXTwF04)
+- [hints](Project-2A-processes-shell)
+
+### xv6 intro
+- [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-xv6)
+- [discussion](https://www.youtube.com/watch?v=vR6z2QGcoo8)
+- [hints](Project-1B-initial-xv6)
+
+### Virtual Memory
+**Trial project**: This project is currently being tried as a replacement for the xv6 virtual memory project. If you wish to do the old project instead, click [here](#xv6-virtual-memory).
+- [Project repository](https://git.doit.wisc.edu/cdis/cs/courses/cs537/fall24/public/p5)
+
+### MapReduce
+- [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce)
+- [discussion](https://youtu.be/tSiJ_oBSOZE?t=34)
+- [Q/A](https://www.youtube.com/watch?v=jVmWrr8y0Uw)
+
+### Mini-WFS
+- [Project repository](https://git.doit.wisc.edu/cdis/cs/courses/cs537/fall25/p6/p6-base)
+
+In this project you will implement a basic filesystem in userspace (FUSE) not unlike the Very Simple Filesystem described in the book.
+#### Hints
+TBW
+
+### xv6 lottery scheduler
+**Legacy project:** This project will be removed sometime in the future.
+- [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/scheduling-xv6-lottery)
+- [discussion](https://www.youtube.com/watch?v=eYfeOT1QYmg)
+- [hints](Scheduling-xv6-lottery)
+
+### xv6 virtual memory
+**Legacy project:** This project will be removed sometime in the future.
+- [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/vm-xv6-intro)
+- [discussion 1](https://youtu.be/z6dqk6iBBRY?t=1305)
+- [discussion 2](https://www.youtube.com/watch?v=WVHRaqom0y)
+- [hints](vm-xv6-intro)
+
+### Kernel Threads
+**Legacy project**
+- [details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-xv6-threads)
+- [discussion](https://www.youtube.com/watch?v=G9nW9UbkT7s)
+- [hints](#xv6-kernel-threads)
