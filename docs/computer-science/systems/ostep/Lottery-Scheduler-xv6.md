@@ -1,5 +1,5 @@
 # Lottery Scheduler xv6
-**Legacy Project:** this project has been replaced by the [STCF scheduler](../STCF-Scheduler-xv6) project.
+**Legacy Project:** this project has been replaced by the [STCF Scheduler](../STCF-Scheduler) project.
 
 
 - [Project details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/scheduling-xv6-lottery)
