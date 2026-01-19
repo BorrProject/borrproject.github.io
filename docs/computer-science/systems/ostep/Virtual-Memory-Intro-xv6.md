@@ -1,5 +1,5 @@
 # Virtual Memory Intro xv6
-**This is a legacy project which has been replaced by the [Memory Mapping xv6 Project]().**
+**This is a legacy project which has been replaced by the [Memory Mapping xv6 Project](../Memory-Mapping-xv6).**
 
 Credit goes to [palladian](https://github.com/palladian1)
 
