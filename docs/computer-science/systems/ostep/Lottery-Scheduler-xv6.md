@@ -1,8 +1,13 @@
-# Scheduling xv6 Lottery
+# Lottery Scheduler xv6
+**Legacy Project:** this project has been replaced by the [STCF scheduler](STCF-Scheduler-xv6) project.
 
-## all thanks to [palladian](https://github.com/palladian1)
 
-### General Tips
+- [Project details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/scheduling-xv6-lottery)
+- [Discussion](https://www.youtube.com/watch?v=eYfeOT1QYmg)
+
+all thanks to [palladian](https://github.com/palladian1)
+
+## General Tips
 
 * Read chapter 9 in the OSTEP book and watch the video for discussion 5. Lottery ticket schedulers aren't discussed in the lectures, so you really do have to read the book for this one.
 
