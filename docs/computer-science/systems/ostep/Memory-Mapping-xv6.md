@@ -1,5 +1,5 @@
 # Memory Mapping xv6
-**Trial project**: This project is currently being tried as a replacement for the xv6 virtual memory project. If you wish to do the old project instead, click [here](#xv6-virtual-memory).
+**Trial project**: This project is currently being tried as a replacement for the xv6 virtual memory project. If you wish to do the old project instead, click [here](../Virtual-Memory-Intro-xv6).
 
 - [Project repository](https://git.doit.wisc.edu/cdis/cs/courses/cs537/fall24/public/p5)
 

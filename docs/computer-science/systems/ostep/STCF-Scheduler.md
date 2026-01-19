@@ -1,6 +1,6 @@
 # STCF-Scheduler xv6
 
-**Trial project**: This project is currently being tried as a replacement for the xv6 lottery scheduler project. If you wish to do the old project instead, click [here](#xv6-lottery-scheduler).
+**Trial project**: This project is currently being tried as a replacement for the xv6 lottery scheduler project. If you wish to do the old project instead, click [here](../Lottery-Scheduler-xv6).
 - [Project repository](https://git.doit.wisc.edu/cdis/cs/courses/cs537/fall25/p3/p3-base)
 
 ## Instructions
