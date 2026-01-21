@@ -32,7 +32,7 @@ they belong in [extras/courses](./extras/courses.md) or [extras/readings](./extr
 
 - *[Intro CS](#intro-cs)*: for students to try out CS and see if it's right for them
 - *[Core CS](#core-cs)*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
-- *[Advanced CS](#advanced-cs)*: corresponds roughly to the final year of a computer science curriculum, taking [electives](advanced-cs/electives/index.md) according to the student's interests and a [final project](advanced-cs/final-project/index.md) for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
+- *[Advanced CS](#advanced-cs)*: corresponds roughly to the final year of a computer science curriculum, taking [electives](./advanced-cs/electives/index.md) according to the student's interests and a [final project](./advanced-cs/final-project/index.md) for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
 
 **Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spreadsheet](https://docs.google.com/spreadsheets/d/1Pp4z-ulYDT9Px88oTQP5FJiZWyk8LcF7cBvc6SVXu6o/) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
   
@@ -173,11 +173,11 @@ Get to know how to use the skills you have learned apply to real world applicati
 
 After completing every course in all previous tracks, choose a subset of courses from Advanced CS based on interest. Understand that these are electives; not every course needs to be taken. But take every course that is relevant to the field you intend to go into. You do not need to make this choice until you have completed all previous tracks, and it is suggested to only make the choice after that.
 
-- [Electives](advanced-cs/electives/index.md)
+- [Electives](./advanced-cs/electives/index.md)
 
 Afterwards, visit our Final Project page to decide how you want to cap off your Computer Science journey. There are many paths you can take your career, and it is up to you to decide where to go.
 
-- [Final Project](advanced-cs/final-project/index.md)
+- [Final Project](./advanced-cs/final-project/index.md)
 
 ### Congratulations
 
