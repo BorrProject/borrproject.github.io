@@ -1,10 +1,10 @@
 # Frequently Asked Questions
 
 This page answers some questions that we frequently receive about the curriculum.
-If you have questions that aren't answered here, try asking through one of our [community channels](../#community).
+If you have questions that aren't answered here, try asking through one of our [community channels](./index.md#community).
 If it seems important enough or we get asked that question a lot, we will probably add it here.
 
-Alternatively, you could [contribute](../../contributing.md) an answer yourself.
+Alternatively, you could [contribute](/contributing.md) an answer yourself.
 
 ## Contents
 

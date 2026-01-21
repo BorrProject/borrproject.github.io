@@ -4,7 +4,7 @@ This page answers some questions that we frequently receive about the curriculum
 If you have questions that aren't answered here, try asking through one of our [community channels](../#community).
 If it seems important enough or we get asked that question a lot, we will probably add it here.
 
-Alternatively, you could [contribute](../../contributing.md) an answer yourself.
+Alternatively, you could [contribute](/contributing.md) an answer yourself.
 
 ## Questions
 
@@ -13,7 +13,7 @@ No. The Borr Project creates guides to resources that will empower you to learn 
 
 ### How can I review the math prerequisites?
 
-See our [Pre-College Math](../../precollege-math/index.md) curriculum for a list of resources to use for reviewing the math prerequisites.
+See our [Pre-College Math](/precollege-math/index.md) curriculum for a list of resources to use for reviewing the math prerequisites.
 
 ### What is a good course to learn a particular language?
 The Borr Project focuses on finding the best courses to learn computer science topics, and isn’t focused on finding language-specific courses. If you are looking to learn a particular language or framework there are two great resources to check.
@@ -72,7 +72,7 @@ Sometimes a course is on multiple platforms that are reasonably similar in quali
 
 ### Why doesn't the curriculum cover/ignore topic X?
 
-You can read more about our curricular guidelines and the qualifications of the guidelines' authors [here](../curricular_guidelines.md). If you find a topic that is required by our guidelines and is not included in the curriculum, we should make a change! Read more about [contributing to a change](../../contributing.md).
+You can read more about our curricular guidelines and the qualifications of the guidelines' authors [here](./curricular_guidelines.md). If you find a topic that is required by our guidelines and is not included in the curriculum, we should make a change! Read more about [contributing to a change](/contributing.md).
 
 ### Why is the curriculum missing some pre-requisites?
 
