@@ -1,14 +1,9 @@
-# Project 2A
+# Unix Shell
 
 ### all thanks to [Palladian](https://github.com/palladian1/)
 
-- [x] Interactive mode
-- [x] Batch mode
-- [x] exit
-- [x] cd
-- [x] path
-- [x] Redirection
-- [x] Parallel commands
+- [Project Details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/processes-shell)
+- [Discussion](https://youtu.be/76PfvXTwF04)
 
 ### Tips
 

@@ -1,6 +1,9 @@
-# Project 1B
+# Intro to xv6
 
 ### all thanks to [palladian](https://github.com/palladian1)
+
+- [Project details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/initial-xv6)
+- [Discussion](https://www.youtube.com/watch?v=vR6z2QGcoo8)
 
 ### Linux Installation
 

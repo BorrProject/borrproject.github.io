@@ -1,9 +1,14 @@
-
-# Intro To xv6 Virtual Memory
+# Virtual Memory Intro xv6
+**This is a legacy project which has been replaced by the [Memory Mapping xv6 Project](../Memory-Mapping-xv6).**
 
 Credit goes to [palladian](https://github.com/palladian1)
 
+- [Project details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/vm-xv6-intro)
+- [Discussion 1](https://youtu.be/z6dqk6iBBRY?t=1305)
+- [Discussion 2](https://www.youtube.com/watch?v=WVHRaqom0y)
+
 ### WARNING:
+
 
 ***The project doesn't match the currently available xv6 source code, which already has this project implemented in it!***
 
