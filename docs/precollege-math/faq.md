@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 
 This page answers some questions that we frequently receive about the curriculum.
-If you have questions that aren't answered here, try asking through one of our [community channels](index.md#community).
+If you have questions that aren't answered here, try asking through one of our [community channels](./index.md#community).
 If it seems important enough or we get asked that question a lot, we will probably add it here.
 
 Alternatively, you could [contribute](../contributing.md) an answer yourself.
@@ -43,7 +43,7 @@ Some may find using a textbook to supplement their learning useful. However, usi
 
 #### What book do I use?
 
-Check out [extras/readings](extras/readings.md) for a list of textbooks you can use to aid your studies.
+Check out [extras/readings](./extras/readings.md) for a list of textbooks you can use to aid your studies.
 
 #### Where can I find answers to the questions in the textbook?
 
@@ -73,7 +73,7 @@ It would be ideal if graded assignments were always free. In the event that free
 
 ### Why doesn't the curriculum cover/ignore topic X?
 
-You can read more about our curricular guidelines and the qualifications of the guidelines' authors [here](curricular_guidelines.md). If you find a topic that is required by our guidelines and is not included in the curriculum, we should make a change! Read more about [contributing to a change](/contributing.md).
+You can read more about our curricular guidelines and the qualifications of the guidelines' authors [here](./curricular_guidelines.md). If you find a topic that is required by our guidelines and is not included in the curriculum, we should make a change! Read more about [contributing to a change](../contributing.md).
 
 ### Is Geometry necessary for Calculus or Computer Science?
 
@@ -84,7 +84,7 @@ Yes. Geometry is a major prerequisite to Trigonometry, which in turn is used tho
 It is very common to find lessons for single math topics on the internet.
 It is rarer to find an entire course that covers all the math topics.
 If you are looking for a resource that goes more in depth into a topic you are struggling with, we recommend searching [Google](https://www.google.com/) or [YouTube](https://www.youtube.com/) for that topic.
-[r/learnmath](https://www.reddit.com/r/learnmath/comments/8p922p/list_of_websites_ebooks_downloads_etc_for_mobile/) has a list of resources that you may find useful. Also, be sure to check out [extras/courses](../extras/courses) and [extras/readings](../extras/readings)!
+[r/learnmath](https://www.reddit.com/r/learnmath/comments/8p922p/list_of_websites_ebooks_downloads_etc_for_mobile/) has a list of resources that you may find useful. Also, be sure to check out [extras/courses](./extras/courses.md) and [extras/readings](./extras/readings.md)!
 
 ### Why not Khan Academy, Professor Leonard, and/or `insert favorite resource here`?
 
