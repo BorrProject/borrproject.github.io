@@ -4,7 +4,7 @@ This page answers some questions that we frequently receive about the curriculum
 If you have questions that aren't answered here, try asking through one of our [community channels](./index.md#community).
 If it seems important enough or we get asked that question a lot, we will probably add it here.
 
-Alternatively, you could [contribute](/contributing.md) an answer yourself.
+Alternatively, you could [contribute](../contributing.md) an answer yourself.
 
 ## Contents
 
@@ -21,7 +21,7 @@ Alternatively, you could [contribute](/contributing.md) an answer yourself.
 ### How can I review the math prerequisites?
 Many Borr Project students choose to review math topics that they have not studied recently.
 
-See our [Pre-College Math](/precollege-math/index.md) curriculum for a list of resources to use for reviewing the math prerequisites.
+See our [Pre-College Math](../precollege-math/index.md) curriculum for a list of resources to use for reviewing the math prerequisites.
 
 ### In what order should I take the courses?
 
@@ -71,7 +71,7 @@ If you just want to watch the videos, it is never necessary for any edX course o
 
 ### Why doesn't the curriculum cover/ignore topic X?
 
-You can read more about our curricular guidelines and the qualifications of the guidelines' authors [here](./curricular_guidelines.md). If you find a topic that is required by our guidelines and is not included in the curriculum, we should make a change! Read more about [contributing to a change](/contributing.md).
+You can read more about our curricular guidelines and the qualifications of the guidelines' authors [here](./curricular_guidelines.md). If you find a topic that is required by our guidelines and is not included in the curriculum, we should make a change! Read more about [contributing to a change](../contributing.md).
 
 ### Why is the curriculum missing some pre-requisites?
 
