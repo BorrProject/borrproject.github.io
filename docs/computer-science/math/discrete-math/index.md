@@ -12,7 +12,7 @@ Covers everything typically found in a Discrete Math course.
 Many students choose to go with a paid textbook for an easier introduction to this subject:
 - [Discrete Mathematics with Applications](https://www.amazon.com/Discrete-Mathematics-Applications-Susanna-Epp/dp/1337694193/), 1 year
 
-This book covers some topics which are covered again in [theory courses](/computer-science/theory/index.md). The MIT course and the corresponding book covers more topics, which are not covered by this book.
+This book covers some topics which are covered again in [theory courses](../../theory/index.md). The MIT course and the corresponding book covers more topics, which are not covered by this book.
 
 
 [Book of Proof](https://richardhammack.github.io/BookOfProof/) can be used as a quick introduction to writing proofs.

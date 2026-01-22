@@ -5,7 +5,7 @@ sidebar_position: 1
 # Elementary Programming
 *Timeline: 75 - 100 hours*
 
-If you find the [Intro CS course](/computer-science/intro-cs/index.md) difficult to follow, or if you want to break up your studies of [Pre-college Math](/precollege-math/index.md), start here. These courses are self-paced, allowing you to adjust the number of hours you spend per week to meet your needs.
+If you find the [Intro CS course](/computer-science/intro-cs/index.md) difficult to follow, or if you want to break up your studies of [Pre-college Math](../../precollege-math/index.md), start here. These courses are self-paced, allowing you to adjust the number of hours you spend per week to meet your needs.
 
 You need to do **only ONE** of the following courses.
 
