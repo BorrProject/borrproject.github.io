@@ -9,7 +9,7 @@ The Borr Prject is one of a few efforts to inform learners how they can pursue c
 - [P1xt](https://github.com/P1xt/p1xt-guides)
 - [Functional CS](https://functionalcs.github.io/curriculum/)
 
-What differentiates the Borr Project? The Borr Project is dedicated to how an individual can learn the undergraduate CS curriculum. This is why we use the [CS2013](../../curricular_guidelines) as our curricular guidelines. These guidelines are written by the two foremost professional organizations in computing.
+What differentiates the Borr Project? The Borr Project is dedicated to how an individual can learn the undergraduate CS curriculum. This is why we use the [CS2013](../curricular_guidelines.md) as our curricular guidelines. These guidelines are written by the two foremost professional organizations in computing.
 
 To know what makes the Borr Project Different from OSSU, read [this blog post](https://borrproject.github.io/blog/announcing-borr-project/).
 
