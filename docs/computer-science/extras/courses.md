@@ -10,7 +10,7 @@ Courses | Duration | Effort
 :-- | :--: | :--:
 [Introduction to Computational Thinking and Data Science](https://www.edx.org/learn/computer-science/massachusetts-institute-of-technology-introduction-to-computational-thinking-and-data-science#!)([alt](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/))| 10 weeks | 15 hours/week
 [Introduction to Computer Science - CS50](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science#!) ([alt](https://cs50.harvard.edu/x/)) | 12 weeks | 10-20 hours/week
-[Introduction to Computer Science (Udacity)](https://www.udacity.com/course/intro-to-computer-science--cs101)| 7 weeks | 10-20 hours/week
+[Introduction to Computer Science (Udacity)](https://www.cs.virginia.edu/~evans/courses/cs101/)| 7 weeks | 10-20 hours/week
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)| 5 weeks | -
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)| - | -
 [Computing In Python, Part I: Fundamentals and Procedural Programming](https://www.edx.org/learn/python/the-georgia-institute-of-technology-computing-in-python-i-fundamentals-and-procedural-programming) | 5 weeks | 10 hours/week
