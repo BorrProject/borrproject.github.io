@@ -154,7 +154,7 @@ Learn how to think critically about the social impact of technology and protect 
 
 ### Applications
 
-*Timeline: 279 - 291 hours*
+*Timeline: 429 - 491 hours*
 
 *Prerequisites: [Program Design](./program-design/index.md)*
 
@@ -162,6 +162,7 @@ Get to know how to use the skills you have learned apply to real world applicati
 
 - [Databases](./applications/databases/index.md)
 - [Machine Learning](./applications/machine-learning/index.md)
+- [User Interface Design & Implementation](./applications/hci/index.md)
 - [Computer Graphics](./applications/computer-graphics/index.md)
 - [Software Engineering](./applications/software-engineering/index.md)
 
