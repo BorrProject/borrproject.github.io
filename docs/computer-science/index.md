@@ -22,7 +22,7 @@ but specifically chosen to meet the following criteria.
 - Be open for enrollment
 - Run regularly (ideally in self-paced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
-- Match the curricular standards of the [CS 2013](./curricular_guidelines.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
+- Match the curricular standards of the [CS 2023](./curricular_guidelines.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
 
 When no course meets the above criteria, the coursework is supplemented with a book.
 When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
