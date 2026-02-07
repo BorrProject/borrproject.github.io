@@ -84,6 +84,9 @@ Courses | Duration | Effort
 [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)| 16 weeks | 6-10 hours/week
 [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120)| 10 weeks | 6-10 hours/week
 [Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
+[UW-Madison CS 571](https://cs571.org/) | 16 weeks | 5-6 hours/week
+[GTx: Human-Computer Interaction](https://www.edx.org/learn/human-computer-interaction/the-georgia-institute-of-technology-human-computer-interaction-i-fundamentals-design-principles) | 6 weeks | 5-6 hours/week
+
 
 ## Tools
 

@@ -22,7 +22,7 @@ but specifically chosen to meet the following criteria.
 - Be open for enrollment
 - Run regularly (ideally in self-paced format, otherwise running multiple times per year)
 - Be of generally high quality in teaching materials and pedagogical principles
-- Match the curricular standards of the [CS 2013](./curricular_guidelines.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
+- Match the curricular standards of the [CS 2023](./curricular_guidelines.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
 
 When no course meets the above criteria, the coursework is supplemented with a book.
 When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
@@ -154,7 +154,7 @@ Learn how to think critically about the social impact of technology and protect 
 
 ### Applications
 
-*Timeline: 279 - 291 hours*
+*Timeline: 429 - 491 hours*
 
 *Prerequisites: [Program Design](./program-design/index.md)*
 
@@ -162,6 +162,7 @@ Get to know how to use the skills you have learned apply to real world applicati
 
 - [Databases](./applications/databases/index.md)
 - [Machine Learning](./applications/machine-learning/index.md)
+- [User Interface Design & Implementation](./applications/hci/index.md)
 - [Computer Graphics](./applications/computer-graphics/index.md)
 - [Software Engineering](./applications/software-engineering/index.md)
 
