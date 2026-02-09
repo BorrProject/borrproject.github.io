@@ -118,6 +118,8 @@ Build a rigorous foundation in mathematical thinking, which is essential for mas
 
 - [Calculus](./math/calculus/index.md)
 - [Discrete Mathematics](./math/discrete-math/index.md)
+- [Essence of Linear Algebra](./math/essence-linear-algebra/index.md)
+- [Linear Algebra](./math/linear-algebra/index.md) (Only Unit 1)
 
 ### Systems
 
