@@ -70,7 +70,7 @@ We want all participants in the Borr Project community have the best possible ex
 
 #### Safety versus Comfort
 
-The GNOME community prioritizes marginalized people’s safety over privileged people’s comfort, for example in situations involving:
+The Borr Project community prioritizes marginalized people’s safety over privileged people’s comfort, for example in situations involving:
 
 - “Reverse”-isms, including “reverse racism,” “reverse sexism,” and “cisphobia”
 - Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.”
