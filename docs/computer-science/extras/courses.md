@@ -41,6 +41,7 @@ Courses | Duration | Effort
 [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data) | 18 weeks | 12 hours/week
 [Matrix Methods In Data Analysis, Signal Processing, And Machine Learning](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/) | - | -
+[Stanford CS109: Probability for Computer Scientists](https://web.stanford.edu/class/archive/cs/cs109/cs109.1232/) <br/> - [Lectures](https://youtube.com/playlist?list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg) <br/> - [Practice Problems](https://drive.google.com/drive/folders/1Ff5awaJv-ntsPDFcgHkdi6Swmt3Iemrw) | - | -
 
 ## Systems
 
