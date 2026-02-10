@@ -74,6 +74,9 @@ Courses | Duration | Effort
 [Approximation Algorithms Part I](https://www.coursera.org/learn/approximation-algorithms-part-1/) | - | -
 [Approximation Algorithms Part II](https://www.coursera.org/learn/approximation-algorithms-part-2/) | - | -
 [Design And Analysis Of Algorithms](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/) | - | -
+[MIT 6.034: Artificial Intelligence](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/) | - | -
+[Georgia Tech Artificial Intelligence](https://omscs.gatech.edu/cs-6601-artificial-intelligence) <br/> - [The course on Ed](https://edstem.org/us/join/gYPFtP) | - | -
+[University of Illinois: AI systems](https://courses.grainger.illinois.edu/cs440/fa2024/schedule.html) | - | -
 
 ## Applications
 
@@ -87,6 +90,8 @@ Courses | Duration | Effort
 [Big Data Science with the BD2K-LINCS Data Coordination and Integration Center](https://www.coursera.org/course/bd2klincs)| 7 weeks | 4-5 hours/week
 [UW-Madison CS 571](https://cs571.org/) | 16 weeks | 5-6 hours/week
 [GTx: Human-Computer Interaction](https://www.edx.org/learn/human-computer-interaction/the-georgia-institute-of-technology-human-computer-interaction-i-fundamentals-design-principles) | 6 weeks | 5-6 hours/week
+[e-Lite Human Computer Interaction](https://elite.polito.it/teaching/02jsk-hci/info) | - | -
+[e-Lite Human-AI Interaction](https://elite.polito.it/teaching/01ujuiu-haii/info) | - | -
 
 
 ## Tools

@@ -140,7 +140,9 @@ Learn how computers actually works. You will build a simulated version of a comp
 *Prerequisites: [Discrete Math](./math/discrete-math/index.md), [Program Design](./program-design/index.md)*
 
 Get a perspective into why certain ways of solving a problem are better than others. Learn about complexity and theoretical limits of algorithms. Get an idea of what computers can or cannot do. These courses are the pillars of Computer Science.
-- [Theory](./theory/index.md)
+
+- [Algorithms Illuminated](./theory/algorithms/index.md)
+- [Introduction to Artificial Intelligence](./theory/ai/index.md)
 
 ### Ethics & Security
 
@@ -167,6 +169,7 @@ Get to know how to use the skills you have learned apply to real world applicati
 - [User Interface Design & Implementation](./applications/hci/index.md)
 - [Computer Graphics](./applications/computer-graphics/index.md)
 - [Software Engineering](./applications/software-engineering/index.md)
+- [Foundation Models and Generative AI](./applications/gen-ai/index.md)
 
 ## Advanced CS
 
