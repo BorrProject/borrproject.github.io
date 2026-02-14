@@ -86,72 +86,72 @@ const config = {
       }),
     ],
   ],
-  
+
   plugins: [require.resolve("docusaurus-plugin-image-zoom"),
-    [
-      '@docusaurus/plugin-pwa',
-      {
-        debug: false,
-        injectManifestConfig: {
-          globPatterns: ['**/*.{webp}'],
-        },
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-        ],
-        pwaHead: [
-          {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/borr.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json',
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(255, 255, 255)',
-          },
-          {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-capable',
-            content: 'yes',
-          },
-          {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-status-bar-style',
-            content: '#000',
-          },
-          {
-            tagName: 'link',
-            rel: 'apple-touch-icon',
-            href: '/img/borr.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'mask-icon',
-            href: '/img/borr.svg',
-            color: 'rgb(37, 194, 160)',
-          },
-          {
-            tagName: 'meta',
-            name: 'msapplication-TileImage',
-            content: '/img/borr.png',
-          },
-          {
-            tagName: 'meta',
-            name: 'msapplication-TileColor',
-            content: '#000',
-          },
-        ],
+  [
+    '@docusaurus/plugin-pwa',
+    {
+      debug: false,
+      injectManifestConfig: {
+        globPatterns: ['**/*.{webp}'],
       },
-    ],
+      offlineModeActivationStrategies: [
+        'appInstalled',
+        'standalone',
+        'queryString',
+      ],
+      pwaHead: [
+        {
+          tagName: 'link',
+          rel: 'icon',
+          href: '/img/borr.png',
+        },
+        {
+          tagName: 'link',
+          rel: 'manifest',
+          href: '/manifest.json',
+        },
+        {
+          tagName: 'meta',
+          name: 'theme-color',
+          content: 'rgb(255, 255, 255)',
+        },
+        {
+          tagName: 'meta',
+          name: 'apple-mobile-web-app-capable',
+          content: 'yes',
+        },
+        {
+          tagName: 'meta',
+          name: 'apple-mobile-web-app-status-bar-style',
+          content: '#000',
+        },
+        {
+          tagName: 'link',
+          rel: 'apple-touch-icon',
+          href: '/img/borr.png',
+        },
+        {
+          tagName: 'link',
+          rel: 'mask-icon',
+          href: '/img/borr.svg',
+          color: 'rgb(37, 194, 160)',
+        },
+        {
+          tagName: 'meta',
+          name: 'msapplication-TileImage',
+          content: '/img/borr.png',
+        },
+        {
+          tagName: 'meta',
+          name: 'msapplication-TileColor',
+          content: '#000',
+        },
+      ],
+    },
   ],
-  
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -166,11 +166,11 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-//       algolia: {
-//        appId: '',
-//        apiKey: '',
-//        indexName: '',
-//      },
+      //       algolia: {
+      //        appId: '',
+      //        apiKey: '',
+      //        indexName: '',
+      //      },
       // Replace with your project's social card
       image: 'img/borr-social-card.webp',
       zoom: {},
@@ -217,6 +217,62 @@ const config = {
       footer: {
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} The Borr Project. Built with Docusaurus.`,
+        links: [
+          {
+            title: 'Curricula',
+            items: [
+              {
+                label: 'Computer Science',
+                to: '/computer-science',
+              },
+              {
+                label: 'Pre-College Math',
+                to: '/precollege-math',
+              },
+              {
+                label: 'Math',
+                to: '/math',
+              },
+              {
+                label: 'Data Science',
+                to: '/data-science',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/uR2QS36pdH',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@borrproject',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/BorrProject/',
+              },
+              {
+                label: 'Code of Conduct',
+                to: '/coc/',
+              },
+            ],
+          },
+          {
+            title: 'Infrastructure Provider',
+            items: [
+              {
+                html: `
+                <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
+                  <img src="/netlify-badge-color-accent.svg" alt="Deploys by Netlify" width="114" height="51" />
+                </a>
+              `,
+              },
+            ],
+          },
+        ],
       },
       prism: {
         theme: prismThemes.github,
