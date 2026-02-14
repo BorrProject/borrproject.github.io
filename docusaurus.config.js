@@ -19,7 +19,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://borrproject.github.io',
+  url: 'https://borr.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -78,10 +78,6 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
-        gtag: {
-          trackingID: 'G-8J0Q85NP5N',
-          anonymizeIP: true,
         },
       }),
     ],

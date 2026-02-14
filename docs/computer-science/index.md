@@ -36,7 +36,7 @@ they belong in [extras/courses](./extras/courses.md) or [extras/readings](./extr
 
 **Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spreadsheet](https://docs.google.com/spreadsheets/d/1Pp4z-ulYDT9Px88oTQP5FJiZWyk8LcF7cBvc6SVXu6o/) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
   
-> **Warning:** While the spreadsheet is a useful tool to estimate the time you need to complete this curriculum, it may not always be up-to-date with the curriculum. Use the [Borr Project website](https://borrproject.github.io) to see what courses to do.
+> **Warning:** While the spreadsheet is a useful tool to estimate the time you need to complete this curriculum, it may not always be up-to-date with the curriculum. Use the [Borr Project website](https://borr.dev) to see what courses to do.
 
 **Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
 Note that both [Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US) and [edX](https://courses.edx.org/financial-assistance/) offer financial aid.
@@ -61,7 +61,7 @@ just remember that you can't purchase success!
 - We have a Discord server! [![Discord](https://img.shields.io/discord/1385616874200371350.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/uR2QS36pdH) This should be your first stop to talk with other Borr project students. Why don't you introduce yourself right now? [Join the Borr Project Discord](https://discord.gg/uR2QS36pdH)
 - You can also interact through GitHub issues. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](../contributing.md).
 
-> **Warning:** There are a few third-party/deprecated/outdated material that you might find when searching for Borr Project or OSSU. We recommend you to ignore them, and only use the [Borr Project website](https://borrproject.github.io). Some known outdated materials are:
+> **Warning:** There are a few third-party/deprecated/outdated material that you might find when searching for Borr Project or OSSU. We recommend you to ignore them, and only use the [Borr Project website](https://borr.dev). Some known outdated materials are:
 >  - OSSU repos and websites
 >  - An unmaintained and deprecated firebase app
 >  - An unmaintained and deprecated trello board
