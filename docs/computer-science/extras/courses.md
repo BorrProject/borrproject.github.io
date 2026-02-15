@@ -35,6 +35,7 @@ Courses | Duration | Effort
 [Precalculus](https://www.futurelearn.com/courses/precalculus) | 5 weeks | 6 hours/week
 [Advanced Precalculus](https://www.futurelearn.com/courses/advanced-precalculus) | 4 weeks | 5 hours/week
 [Calculus Applied!](https://www.edx.org/learn/calculus/harvard-university-calculus-applied) | 10 Weeks | 6hours/week
+[APEX Calculus](https://runestone.academy/ns/books/published/APEX/apex-calculus.html) | - | -
 [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro)| - | -
 [Linear Algebra (Strang)](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm) | - | -
 [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Spring21/#introduction_to_computational_thinking) | - | -
@@ -57,6 +58,7 @@ Courses | Duration | Effort
 [Advanced Operating Systems](https://www.udacity.com/course/ai-deep-learning--ud189)| 5 weeks | 5-8 hours/week
 [Networking for Web Developers](https://www.udacity.com/course/computer-networking--ud436) | 12 weeks | 5-8 hours/week
 Distributed Systems - [Playlist](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), [Course site](http://nil.csail.mit.edu/6.824/2020/schedule.html), [Self-studying 6.824](https://lieuzhenghong.com/mit_6.824_self_study/) [6.824 Discord group for further help](https://discord.gg/KbhkEqpBqC) | - | -
+[Demystifying Networking: IIT Bombay](https://www.youtube.com/playlist?list=PLOzRYVm0a65c99bTo_la39WMeX1RjwCvk) | - | -
 
 ## Theory
 

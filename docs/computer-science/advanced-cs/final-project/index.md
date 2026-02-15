@@ -21,7 +21,7 @@ Here is a sample of options
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
 [Fullstack Open](https://fullstackopen.com/en/) | 12 weeks | 15 hours/week | programming
-[Modern Robotics (Specialization)](https://www.coursera.org/specializations/modernrobotics) | 26 weeks | 2-5 hours/week | freshman-level physics, linear algebra, calculus, [linear ordinary differential equations](https://www.khanacademy.org/math/differential-equations)
+[Modern Robotics (Specialization)](https://modernrobotics.northwestern.edu) <br/> [Textbook](https://hades.mech.northwestern.edu/images/2/25/MR-v2.pdf) <br/> [Other resources](https://hades.mech.northwestern.edu/index.php/Modern_Robotics) | 26 weeks | 2-5 hours/week | freshman-level physics, linear algebra, calculus, [linear ordinary differential equations](https://www.khanacademy.org/math/differential-equations)
 [Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | 30 weeks | 2-5 hours/week | machine learning
 [Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | 30 weeks | 3-5 hours/week | none
 [Internet of Things (Specialization)](https://www.coursera.org/specializations/internet-of-things) | 30 weeks | 1-5 hours/week | strong programming
