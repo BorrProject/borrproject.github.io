@@ -90,6 +90,7 @@ Courses | Duration | Effort | Prerequisites
 [Secure Software Development: Requirements, Design, and Reuse](https://www.edx.org/learn/software-development/the-linux-foundation-secure-software-development-requirements-design-and-reuse) ([Alternative](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/)) | 7 weeks | 1-2 hours/week | Core Programming and Core Security
 [Secure Software Development: Implementation](https://www.edx.org/learn/software-development/the-linux-foundation-secure-software-development-implementation) | 7 weeks | 1-2 hours/week | Secure Software Development: Requirements, Design, and Reuse
 [Secure Software Development: Verification and More Specialized Topics](https://www.edx.org/learn/software-engineering/the-linux-foundation-secure-software-development-verification-and-more-specialized-topics) | 7 weeks | 1-2 hours/week | Secure Software Development: Implementation
+[Secure Hardware Design](https://shd.mit.edu/home/) | 12 weeks | 9-12 hours/week | Core CS
 
 #### Advanced math
 
