@@ -1,5 +1,7 @@
 # MapReduce
-**Note:** This project currently does not contain any tests. A ZIP-file containing several test cases and a makefile + example C-program to run them has been uploaded to the Discord server. At some point in the future we will get it refined and published on GitHub.
+
+**Note:** This project currently does not contain any tests. Borr Project contributors have made a repository containing several test cases and a makefile + example C-program to run them: [BorrProject/ostep-mapreduce](https://github.com/BorrProject/ostep-mapreduce). You can download [a zip file containing all these here](https://github.com/BorrProject/ostep-mapreduce/archive/refs/heads/master.zip).
+
 - [Project details](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/concurrency-mapreduce)
 - [Discussion](https://youtu.be/tSiJ_oBSOZE?t=34)
 - [Q/A](https://www.youtube.com/watch?v=jVmWrr8y0Uw)
