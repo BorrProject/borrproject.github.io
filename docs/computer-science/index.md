@@ -106,7 +106,7 @@ Learn how to think like a programmer and build robust, well-structured, thorough
 - [Class-Based Program Design](./program-design/class-based/index.md)
 - [Programming Languages](./program-design/programming-languages/index.md)
 - [Object-Oriented Design](./program-design/object-oriented/index.md)
-- [Software Architecture](./program-design/software-architecture/index.md)
+- [Software Architecture and Design](./program-design/software-architecture/index.md)
 
 ### Math
 
