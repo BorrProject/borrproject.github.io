@@ -154,7 +154,7 @@ Learn how to think critically about the social impact of technology and protect 
 
 - [Ethics](./ethics-security/ethics/index.md)
 - [Cybersecurity Fundamentals](./ethics-security/cyber-fundamentals/index.md)
-- [Secure Coding Practices](./ethics-security/secure-coding-practices/index.md)
+- [UC Berkeley CS 161: Computer Security](./ethics-security/computer-security/index.md)
 
 ### Applications
 
