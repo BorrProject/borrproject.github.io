@@ -38,56 +38,56 @@ just remember that you can't purchase success!
 - We have a Discord server! [![Discord](https://img.shields.io/discord/1385616874200371350.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/uR2QS36pdH) This should be your first stop to talk with other students from The Borr Project. Why don't you introduce yourself right now? [Join The Borr Project Discord](https://discord.gg/uR2QS36pdH)
 - You can also interact through GitHub issues. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](../contributing.md).
 
-# Curriculum
+## Curriculum
 
 Most of The Borr Project's Pre-College Math Curriculum is based on the excellent problem sets created by Matthew Dellinger at [The College Prep School](https://www.youtube.com/@thecollegeprepschool4486/playlists) (TCPS), used by permission. While some prefer to learn from other resources, we still recommend completing the problem sets from TCPS.
 
 Before you begin your Pre-College Math studies, we recommend taking some tests to determine where you should start. Likely, you have already completed some math education, so it would be better to start ahead.
 - [Assessment Tests](./assessment.md)
 
-## Arithmetic
+### Arithmetic
 *Timeline: 156 hours (videos: 52 hours, homework: ~104 hours)*
 
 If you have no math experience, we recommend starting here. You will become proficient in basic arithmetic which is required for higher level math.
 - [Arithmetic](./02-arithmetic/index.md)
 
-## Pre-Algebra
+### Pre-Algebra
 *Timeline: 84 hours (videos: 28 hours, homework: ~56 hours)*
 
 This could also be called an introduction to algebra since it begins the study of variables, negative numbers, and multi-step equations, among other things.
 - [Pre-Algebra](./03-pre-algebra/index.md)
 
-## Algebra 1
+### Algebra 1
 *Timeline: 150 hours (videos: 50 hours, homework: ~100 hours)*
 
 This class teaches proficency in factoring, solving, & manipulating algebraic equations which are topics many students have trouble with in later courses.
 - [Algebra 1](./04-algebra-1/index.md)
 
-## Geometry
+### Geometry
 *Timeline: 189 hours (videos: 63 hours, homework: ~126 hours)*
 
 Here, the student will be introduced to proofs for the first time as well as formulas, theorems, & basic trigonometry, all of which are necessary for higher education.
 - [Geometry](./05-geometry/index.md)
 
-## Algebra 2
+### Algebra 2
 *Timeline: 156 hours (videos: 52 hours, homework: ~104 hours)*
 
 This course solidifies what was taught in Algebra 1, along with introducing the student to many important concepts such as roots, exponents, logarithms, transformations, functions, and more.
 - [Algebra 2](./06-algebra-2/index.md)
 
-## Trigonometry
+### Trigonometry
 *Timeline: 135 hours (videos: 45 hours, homework: ~90 hours)*
 
 A rigorous study of trigonometric equations, identities, transformations, laws, and more. These will come up frequently enough in Calculus that students who skip Trigonometry studies often struggle down the line.
 - [Trigonometry](./07-trigonometry/index.md)
 
-## Precalculus
+### Precalculus
 *Timeline: 219 hours (videos: 73 hours, homework: ~146 hours)*
 
 As the capstone of the Pre-College Math Curriculum, this course finalizes the understanding of Algebra & Trigonometry a student needs to be successful in Calculus. Notable topics include conics, sequences/series, probability, & basic linear algebra.
 - [Precalculus](./08-precalculus/index.md)
 
-## Congratulations
+### Congratulations
 
 After completing the requirements of the curriculum above,
 you have completed all the prerequisite math necessary to begin a bachelor's degree.
@@ -97,5 +97,5 @@ What is next for you? You can start with The Borr Project's [Computer Science](.
 
 ![keep learning](../computer-science/keep-learning.webp)
 
-# Code of conduct
+## Code of conduct
 [Borr Project code of conduct](../coc.md).
