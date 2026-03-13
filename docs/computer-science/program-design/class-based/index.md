@@ -14,7 +14,7 @@ Starting from Assignment 3, the homework scales massively. It is believed to be 
 
 Note that the video that goes with lecture 30 is inaccessable, watch [this video](https://www.youtube.com/watch?v=6WZo7sFFFlQ&list=PL_N7YxtCMPyea2YC3e-1s7SR_S3oWGjdb) instead. *Credit: @nadi726, Discord*
 
-# Course Syllabus
+## Course Syllabus
 To make it easier on students, a syllabus was created to give a general sequence that the lectures & assignments should be taken.
 *Credit: @nadi726, Discord*
 

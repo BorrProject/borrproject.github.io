@@ -103,7 +103,7 @@ Courses | Duration | Effort
 [How to Use Git and GitHub](https://www.udacity.com/blog/2015/06/a-beginners-git-github-tutorial.html) | 3 weeks | 2-3 hours/week
 [Kubernetes Certified Application Developer](https://www.udemy.com/course/certified-kubernetes-application-developer/) | 5 weeks | 2 hours/week
 
-# Online Learning - Great Courses
+## Online Learning - Great Courses
 
 Courses | Duration | Effort
 :-- | :--: | :--:

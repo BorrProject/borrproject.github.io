@@ -49,7 +49,7 @@ Courses | Duration | Effort
 [Professor Leonard Precalculus](https://www.youtube.com/playlist?list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP) | - | -
 
 
-# Online Learning - Great Courses
+## Online Learning - Great Courses
 
 Courses | Duration | Effort
 :-- | :--: | :--:
