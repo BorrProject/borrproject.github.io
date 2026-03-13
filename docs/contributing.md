@@ -27,6 +27,6 @@ Issues require more than just users to suggest them. Issues require active commu
 
 Learning is enhanced by engaged peers. You can be that peer for someone new to the Borr Project. When you see a new person posting in Discord, ask them a question about themselves. When you see a cohort starting at _almost_ the right time, join in. Doing so will make the Borr Project a stronger program for everyone, including you.
 
-# Personal Customization
+## Personal Customization
 
 If you want to customize the curriculum for yourself, you are encouraged to [fork this project](https://help.github.com/articles/fork-a-repo/)!
