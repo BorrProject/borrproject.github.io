@@ -44,26 +44,11 @@ It would be ideal if graded assignments were always free. In the event that free
 
 ### Are Coursera courses free to access?
 
-Some courses that require payment to access probably do exist on Coursera, but we don't put those on our curriculum.
-All Coursera courses that we put on the curriculum must, at minimum, be **free to audit**.
-For some courses, all course features are available for free;
-for others (especially those that are part of a specialization), you may only be able to access the lecture videos.
-(If you find the policies have changed for any courses on our curriculum, please tell us!)
+In 2025, Coursera eliminated the free audit option. We are searching for alternatives for the Courera courses in the curriculum. We would appreciate your contribution if you have found one.
 
-Unfortunately, for some courses, Coursera's interface is [very aggressive](https://darkpatterns.org/) about convincing you that you have to pay.
+A few Coursera courses still offer "Partner-supported free access" as a free audit option. To access that, navigate to the FAQ section at the bottom of the Coursera course page, then click the little "learn more" link next to "Partner-supported free access".
 
-You may see something like this on the course page:
-
-![Free Trial](http://i.imgur.com/MxOcYZv.png)
-
-When attempting to enroll in such a course:
-- Click the blue "Enroll" or "Enroll Now" button.
-- A pop-up will appear.
-- **Do not click** "Start Free Trial", unless you do want to pay.
-- Find the text that says "Audit this course" at the bottom.
-- Click **Audit**.
-
-![Audit this course](https://user-images.githubusercontent.com/3349406/27321369-95ca12e6-55cc-11e7-9b5c-f8fedd8fd643.png)
+![Partner-supported free access](/img//coursera-partner-free.webp)
 
 ### Is it necessary to purchase the Verified Upgrade for edX courses?
 
