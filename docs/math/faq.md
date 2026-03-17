@@ -48,7 +48,7 @@ In 2025, Coursera eliminated the free audit option. We are searching for alterna
 
 A few Coursera courses still offer "Partner-supported free access" as a free audit option. To access that, navigate to the FAQ section at the bottom of the Coursera course page, then click the little "learn more" link next to "Partner-supported free access".
 
-![Partner-supported free access](./coursera-partner-free.webp)
+![Partner-supported free access](/img//coursera-partner-free.webp)
 
 ### Is it necessary to purchase the Verified Upgrade for edX courses?
 
