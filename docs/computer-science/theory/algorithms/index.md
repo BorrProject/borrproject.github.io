@@ -7,7 +7,7 @@ sidebar_position: 1
 
 A full undergraduate-level introduction to the theory of algorithm design, algorithmic analysis, and data structures.
 
-Primary topics: divide and conquer sorting and searching randomized algorithms graph search shortest paths data structures greedy algorithms minimum spanning trees dynamic programming NP-completeness and more
+Primary topics: divide and conquer, sorting and searching, randomized algorithms, graph search, shortest paths, data structures, greedy algorithms, minimum spanning trees, dynamic programming, NP-completeness and more
 - [Course website](https://www.algorithmsilluminated.org/)
 - **Playlists:** 
     - [Part 1](https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V) 
