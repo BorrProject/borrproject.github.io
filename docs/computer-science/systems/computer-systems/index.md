@@ -12,13 +12,13 @@ Nand2Tetris provides a basic introduction to computer architecture and computer 
 Primary topics: digital logic circuits, boolean algebra, computer architecture, computer systems, operating systems, compilers
 
 - [Course Website](https://www.nand2tetris.org/)
-- **Playlists:**
-    - [Part 1](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmSb-CKWQqq9oBFN_KNMTaI)
-    - [Part 2](https://www.youtube.com/playlist?list=PLrDd_kMiAuNmllp9vuPqCuttC1XL9VyVh)
 - [Software](https://www.nand2tetris.org/software)
 - [Projects](https://www.nand2tetris.org/course)
 - [HDL Reference Manual](https://drive.google.com/file/d/1dPj4XNby9iuAs-47U9k3xtYy9hJ-ET0T/view)
 - [Hack Chipset](https://drive.google.com/file/d/1IsDnH0t7q_Im491LQ7_5_ajV0CokRbwR/view)
+- [Lectures Playlist](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0eDa24iKd7qJlsrvr8XcvF)
+
+**Note**: The lectures playlist is from a different university, but is based on the Nand2Tetris Book. The first part of the book is available for free on the course website, on the projects page. One chapter of the book is associated with every project. Read the book chapter, then watch the equivalent lectures and then do the project. The second part of the book is not available for free. For the second part, watch the lectures, and then do the project.
 
 ### Extra Resources:
 - [The Elements of Computing Systems: Building a Modern Computer from First Principles](https://www.nand2tetris.org/book)  
