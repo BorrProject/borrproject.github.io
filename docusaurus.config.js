@@ -15,7 +15,8 @@ const config = {
   favicon: 'img/favicon.ico',
   future: {
     v4: true,
-    experimental_faster: true,
+    faster: true,
+    experimental_vcs: 'default-v2',
   },
 
   // Set the production url of your site here

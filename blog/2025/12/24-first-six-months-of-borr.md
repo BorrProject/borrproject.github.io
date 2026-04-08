@@ -7,7 +7,7 @@ draft: false
 
 The BORR Project started out as a community fork of OSSU to rebuild the community where people can come together, geek out, and support one another in a peer learning environment for computer science and math. Six months in, we’re excited to share our progress.
 
-<!-- truncate -->
+{/* truncate */}
 
 ### Repos & Discord Community
 
