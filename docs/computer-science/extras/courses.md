@@ -20,7 +20,6 @@ Courses | Duration | Effort
 [Programming Basics](https://www.edx.org/learn/computer-programming/iitbombay-programming-basics)| 9 weeks | 8 hours/week
 [Object-Oriented Programming with Java](https://java-programming.mooc.fi/)| 14 weeks | 10 hours/week
 [Introduction to Programming with MATLAB](https://www.coursera.org/learn/matlab)| - | -
-[Introduction to Functional Programming](https://www.edx.org/learn/computer-programming/delft-university-of-technology-introduction-to-functional-programming)| 7 weeks | 4-6 hours/week <!-- currently 404's as of 2025-06-23 but redirects and search results on edx point to this URL -->
 [The Structure and Interpretation of Computer Programs (2022, Python)](http://cs61a.org/) | - | -
 [The Structure and Interpretation of Computer Programs (2011, Scheme)](https://romanbird.github.io/sicp/) | - | -
 [Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/) | 14 weeks | 4 hours/week
