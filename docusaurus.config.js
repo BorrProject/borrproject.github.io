@@ -188,6 +188,7 @@ const config = {
               {to: '/precollege-math', label: 'Pre-College Math'},
               {to: '/data-science', label: 'Data Science'},
               {to: '/math', label: 'Math'},
+              {to: '/mech-eng', label: 'Mechanical Engineering'},
             ],
           },
           {to: '/getting-help', label: 'Getting Help'},

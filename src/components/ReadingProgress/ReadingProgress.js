@@ -29,6 +29,7 @@ const TRACK_SECTIONS = {
   '/precollege-math': 'Pre-College Math',
   '/data-science': 'Data Science',
   '/math': 'Math',
+  '/mech-eng': 'Mechanical Engineering',
 };
 
 export default function ReadingProgress() {
