@@ -33,8 +33,8 @@ sidebar_position: 1
 | Course | Description | Prerequisites | Link |
 | ------ | ----------- | ---- | ---- |
 | Statics | Statics is the first stage into engineering mechanics.  | Differential Equations | [Link](https://engineeringstatics.org/)| 
-| Strength of Materials | Mechanics of deformable bodies.| Statics | [Link](https://engineeringmechanicsoer.github.io/StrengthBook/) |
-| Dynamics (Dynamics and Control I) |Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems(https://ocw.mit.edu/courses/2-003j-dynamics-and-control-i-spring-2007/) |
+| Strength of Materials | Mechanics of deformable bodies | Statics | [Link](https://engineeringmechanicsoer.github.io/StrengthBook/) |
+| Dynamics (Dynamics and Control I) |Introduction to the dynamics and vibrations. | Differential Equations | [Link](https://ocw.mit.edu/courses/2-003j-dynamics-and-control-i-spring-2007/) |
 
 ### Machinery
 
