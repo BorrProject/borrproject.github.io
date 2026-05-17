@@ -46,6 +46,7 @@ The following course groups were clarified to satisfy the requirements mentioned
 | Thermal Systems                       | - | 
 | Design                                | - | 
 | Materials                             | - | 
+| Mechanics                             | - | 
 
 ## Coverage
 
@@ -80,7 +81,7 @@ The topics mentioned in the [requirements](#requirements) part covered by the co
 | Curriculum, b (Engineering topics)  | 45 credits | Machinery, Materials, Control, Electrotechnics and some course from Fluid dynamics and thermodynamics course group
 | Curriculum, c (Non-Engineering topics)  | Some course | Ethics, law and social responsibility
 | Curriculum, d (Project)  | 1 project |  Project |
-| Curriculum, d (Advanced topics)  | 30 credits | Advanced topics
+| Curriculum, d (Advanced topics)  | 30 credits | THe last courses at the end of Mechanics, Fluid dynamics, Thermodynamics, Control, Machinery and specializations
 | Curriculum, d (Specialization)  | 1 chosen specialization | Specializations
 
 #### Program Criteria - Mechanical Engineering

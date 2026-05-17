@@ -73,3 +73,5 @@ sidebar_position: 1
 | Syntax                 | Description | Prerequisites |Link                                                           |
 | ---------------------- | ----------- | -------------------------------------------------------------- | ---- |
 | Complex variables with applications | Description | Differential equations	| [Link](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/) |
+
+### Mechanics
