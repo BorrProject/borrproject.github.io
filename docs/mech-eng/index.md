@@ -66,12 +66,35 @@ sidebar_position: 1
 
 ### Electrotechnics
 
-## Advanced
+## Specializations
 
-### Math
+### Manufacturing   
 
-| Syntax                 | Description | Prerequisites |Link                                                           |
-| ---------------------- | ----------- | -------------------------------------------------------------- | ---- |
+### Modelling
+
+| Syntax | Description | Prerequisites| Link |
+| ------| ------ | ------ | ------ |
 | Complex variables with applications | Description | Differential equations	| [Link](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/) |
 
+
+### Thermal Systems 
+
+| Course | Description | Prerequisites | Link |
+| ------ | ----------- | ---- | ---- |
+
+### Design 
+
+| Course | Description | Prerequisites | Link |
+| ------ | ----------- | ---- | ---- |
+
+### Materials       
+
+| Course | Description | Prerequisites | Link |
+| ------ | ----------- | ---- | ---- |
+
 ### Mechanics
+
+| Course | Description | Prerequisites | Link |
+| ------ | ----------- | ---- | ---- |
+
+     
