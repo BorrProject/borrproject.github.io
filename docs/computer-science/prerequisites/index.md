@@ -17,7 +17,7 @@ Secondly, there is the mental aspect of self-study. Are you prepared to commit t
 
 Here are a few courses that some may find helpful to get the right mindset necessary for self study. They are both optional, but past students have mentioned that they have been helpful.
 
-- [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn), 14 hrs
+- [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn?action=showPartnerSupportedAccess), 14 hrs
 - [Mindshift](https://www.coursera.org/learn/mindshift), 9 hrs
 
 Finally, if you feel like the prerequisites are too daunting, feel free to break up your math studies with some basic programming. The following course is completely optional, but it can break up the monotony of exclusively studying high school math.
