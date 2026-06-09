@@ -9,4 +9,4 @@ CS 3500 teaches a rigorous approach to object-oriented programming and design, w
 
 This course assumes familiarity with programming in the style of *[Systematic Program Design](../spd/index.md)*, and basic knowledge of the Java programming language as introduced in *[Class-Based Program Design](../class-based/index.md)*.
 
-- [CS 3500: Object-Oriented Design](https://course.khoury.northeastern.edu/cs3500/)
+- [CS 3500: Object-Oriented Design](https://course.ccs.neu.edu/cs3500f19/)
