@@ -7,6 +7,8 @@ authors: pulkitkrishna
 ## Introduction  
 This post is a month late. It has been seven months since the last blog post, and a lot has happened in that time.  
 
+{/* truncate */}
+
 ## Coursera Problem  
 In the previous post, we announced the issue with Coursera dependencies. Over the past months, we have mostly overcome that problem in the Computer Science curriculum.  
 
