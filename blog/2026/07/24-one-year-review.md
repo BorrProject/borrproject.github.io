@@ -66,7 +66,23 @@ This was mentioned as a goal in the last blog post.
 - Overhauling the **Math curriculum** is in progress. I have a WIP design to restructure it into multiple pages, similar to what we did with CS and Pre‑College Math.  
 
 ## Plans for the Future  
-*(This section will be drafted later.)*  
+
+Many of the tasks we set as goals in the previous post are still on our to‑do list. They haven’t been forgotten — they’re simply waiting for their turn in the spotlight. Here’s what’s coming down the pipeline:  
+
+- Developing comprehensive **“Setting Up Your Development Environment”** guides, inspired by The Odin Project. Because let’s face it, everyone deserves a smooth start instead of wrestling with broken installs.  
+- Creating a **showcase board** where students can share their curriculum work and projects. Think of it as our brag wall — a place to celebrate what you’ve built.  
+- Organizing **focus groups** (tutors, website maintainers, curriculum maintainers, etc.) and assigning roles. The idea is to make sure everyone knows who’s steering which ship, so we don’t end up with chaos in the harbor.  
+- Continuing to host more **server events and group activities**, because learning together is always more fun than grinding alone.  
+
+And now, let’s talk about the elephant in the room: **marketing the Borr Project**.  
+
+We know OSSU is still the big name out there. It’s a trusted brand, and people keep joining its server even though the community isn’t in great shape anymore. Meanwhile, Borr is stronger, fresher, and better organized — but our numbers are smaller, and word‑of‑mouth hasn’t yet caught up.  
+
+That said, the tide is turning. Recently, Borr Project was included on **fmhy.net**, replacing OSSU as the primary source. It’s a small step, but it’s proof that recognition is growing.  
+
+Here’s where you come in: help spread the word. Talk about Borr Project in the right places. Share it with friends, colleagues, and communities that care about open education. Every mention helps.  
+
+Together, we can make Borr Project not just an alternative to OSSU, but the go‑to roadmap for serious learners everywhere.  
 
 ## Closing Thoughts  
 Looking back, this first year has been packed with challenges, breakthroughs, and plenty of learning. From replacing Coursera courses to aligning with CS2023, from securing borr.dev to joining the Open Source Collective, we’ve proven that Borr is not just surviving — it’s thriving.  
