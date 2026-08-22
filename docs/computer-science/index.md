@@ -160,7 +160,7 @@ Learn how to think critically about the social impact of technology and protect 
 
 *Timeline: 429 - 491 hours*
 
-*Prerequisites: [Program Design](./program-design/index.md)*
+*Prerequisites: [Program Design](./program-design/index.md), [Systems](./systems/index.md), [Theory](./theory/index.md)*
 
 Get to know how to use the skills you have learned apply to real world applications of Computer Science. Learn how to design database systems, how computer graphics work, and dip your feet into the world of machine learning. This track ends with teaching you how to tackle large sized real world projects.
 
