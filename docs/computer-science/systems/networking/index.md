@@ -9,4 +9,4 @@ sidebar_position: 4
 
 Extra Material:
 - [Professor Messer: Network+ Course](https://youtu.be/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8)
-- [Jeremy's IT Lab: CCNA Course](https://youtu.be/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
+- [Jeremy's IT Lab: CCNA Course](https://youtu.be/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)[Course Files](https://drive.google.com/drive/folders/1PwK_jWqfUtOjV7gHt8ODutq9QA5cxCgi)
